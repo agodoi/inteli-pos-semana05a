@@ -531,14 +531,12 @@ Como o dBm é uma escala logarítmica, números mais negativos indicam sinais ma
 
 ### (3.1) BOAS PRÁTICAS [15min] Exercícios teóricos
 
+pegar os exercícios do ppt
 
-### (3.2) BOAS PRÁTICAS [10min] Medição do dBm
-
-
-### (3.3) BOAS PRÁTICAS [30min] Mapa de Calor WiFi
+### (3.2) BOAS PRÁTICAS [30min] Mapa de Calor WiFi (medição do dBm)
 
 testar diferenças entre posições de antenas, gaiola de faraday, uso de metais próximos 
 
 ### (3.3) BOAS PRÁTICAS [30min] Alinhamento de antena de satélites
 
-
+pegar os passos do ppt
