@@ -162,6 +162,8 @@ COLOCA FOTOS
 * Vantagens: Alta velocidade, grande capacidade de dados e imunidade a interferências eletromagnéticas.
 * Desvantagens: custo mais alto e maior complexidade de instalação e manutenção.
 
+---
+
 ### (2.3) Eletromagnético
 
    O meio eletromagnético envolve a transmissão de dados por ondas de rádio, micro-ondas, ou infravermelho através do ar, sem a necessidade de cabos físicos. Esse tipo de transmissão é amplamente utilizado em redes sem fio (wireless).
@@ -182,6 +184,8 @@ Uma antena é um dispositivo usado para transmitir e receber ondas eletromagnét
    * Uma antena receptora, faz o contrário, isto é, detecta uma onda de rádio e tranforma numa pequena corrente elétrica.
    
 Qualquer antena recebe ou emite sinais, mas sua eficiência fica melhor se sua estrutura metálica tiver um tamanho proporcional à sua frequência de operação. Por exemplo, antenas Wi-Fi operam em frequências de 2,4 GHz ou 5 GHz e por issom possuem pequenos tamanhos. Antenas de rádio AM e FM operam em frequências baixas menores, e por isso, possuem tamanhos maiores.
+
+---
 
 ### 3.1 Antena Dipolo
    
@@ -371,6 +375,7 @@ Uma antena helicoidal é formada por um fio enrolado em forma de hélice e é ut
 - Ganho relativamente baixo para comunicações de longa distância
 - Direcionalidade limitada
 
+---
 
 ### 3.10 Antena de Chifre (Horn Antenna)
 
@@ -391,14 +396,14 @@ As antenas de chifre utilizam uma abertura em forma de cone para direcionar as o
 - Grande tamanho físico para operações de alta potência
 - Difícil de fabricar e ajustar para frequências mais baixas
 
+---
 
-
-#### (2.3.2) Comunicação via Satélite
+### (4) Comunicação via Satélite
 
 
 A comunicação via satélite desempenha um papel essencial nas redes de computadores, especialmente quando se trata de conectar áreas geograficamente dispersas e fornecer cobertura global. Aqui estão os principais conceitos que podem ser explorados para um curso de alto nível sobre Redes de Computadores:
 
-### 1. **Princípio de Funcionamento da Comunicação via Satélite**
+#### 1. Princípio de Funcionamento da Comunicação via Satélite
 A comunicação via satélite envolve a transmissão de sinais de rádio entre estações terrestres e satélites que orbitam a Terra. Esses satélites recebem, amplificam e retransmitem os sinais de volta para a Terra, permitindo a comunicação entre locais distantes.
 
 #### Componentes principais:
@@ -406,7 +411,7 @@ A comunicação via satélite envolve a transmissão de sinais de rádio entre e
 - **Satélite**: Recebe o sinal, o amplifica e retransmite para outra região da Terra.
 - **Estação receptora (downlink)**: Recebe o sinal do satélite e o direciona ao destino final.
 
-### 2. **Órbitas de Satélites**
+#### 2. Órbitas de Satélites
 Satélites podem operar em diferentes órbitas, cada uma com suas características, dependendo da aplicação da rede de comunicação.
 
 - **Órbita Geoestacionária (GEO)**: Satélites estão a aproximadamente 35.786 km acima do equador, mantendo uma posição fixa em relação à Terra. Usada principalmente para comunicações de longa distância e televisão por satélite.
@@ -421,7 +426,7 @@ Satélites podem operar em diferentes órbitas, cada uma com suas característic
   - *Vantagem*: Latência moderada (60-80 ms) com cobertura maior que os satélites LEO.
   - *Desvantagem*: Menor cobertura e maior latência que os satélites GEO.
 
-### 3. **Frequências de Operação**
+#### 3. Frequências de Operação
 A comunicação via satélite utiliza várias bandas de frequência para transmissão, dependendo da aplicação e da distância.
 
 - **Banda C (4-8 GHz)**: Usada principalmente para transmissões de televisão e algumas comunicações de voz.
@@ -436,26 +441,26 @@ A comunicação via satélite utiliza várias bandas de frequência para transmi
   - *Vantagem*: Oferece alta largura de banda.
   - *Desvantagem*: Muito sensível à interferência atmosférica, como chuva.
 
-### 4. **Latência e Considerações de Desempenho**
+#### 4. Latência e Considerações de Desempenho
 A latência é uma questão importante na comunicação via satélite, especialmente em satélites geoestacionários (GEO). Isso se deve à grande distância que os sinais precisam percorrer. Para mitigar esse efeito, satélites de órbitas mais baixas (LEO) estão sendo utilizados para aplicações que exigem baixa latência, como jogos online e videoconferências.
 
-### 5. **Aplicações da Comunicação via Satélite**
+#### 5. Aplicações da Comunicação via Satélite
 - **Internet via satélite**: Usada em áreas rurais e remotas onde a infraestrutura terrestre de internet é limitada ou inexistente. Exemplos incluem Starlink, HughesNet, e Viasat.
 - **Comunicações de emergência**: Em desastres naturais ou situações em que a infraestrutura terrestre é destruída, a comunicação via satélite pode fornecer conectividade rápida e eficaz.
 - **Transmissões de TV**: A televisão via satélite, como a DirecTV ou a Sky, usa satélites para enviar conteúdo diretamente para os usuários finais.
 - **Sistemas de navegação**: O GPS é um exemplo de comunicação via satélite para navegação, permitindo rastreamento e posicionamento em tempo real.
 
-### 6. **Desafios da Comunicação via Satélite**
+#### 6. Desafios da Comunicação via Satélite
 - **Interferência atmosférica**: Fenômenos meteorológicos, como chuvas fortes e tempestades, podem afetar a qualidade do sinal, especialmente nas bandas Ku e Ka.
 - **Altos custos de lançamento**: Colocar satélites em órbita é caro, tanto em termos de lançamento quanto de manutenção.
 - **Capacidade limitada**: Embora satélites modernos tenham aumentado a largura de banda disponível, a capacidade ainda é limitada em comparação com redes terrestres de fibra óptica.
 
-### 7. **Tecnologias Emergentes**
+#### 7. Tecnologias Emergentes
 - **Constelações de satélites de órbita baixa (LEO)**: Empresas como SpaceX (Starlink) e Amazon (Project Kuiper) estão desenvolvendo grandes constelações de satélites em órbita baixa para fornecer internet de alta velocidade e baixa latência em todo o mundo.
   
 - **Satélites de órbita inclinada**: Satélites que cobrem regiões específicas, como áreas polares, onde satélites geoestacionários não têm cobertura direta.
 
-### 8. **Comparação com Outras Tecnologias de Rede**
+#### 8. Comparação com Outras Tecnologias de Rede
 - **Vantagens**:
   - Cobertura global, incluindo áreas remotas.
   - Alta confiabilidade em zonas de desastre ou onde a infraestrutura terrestre é limitada.
@@ -463,7 +468,7 @@ A latência é uma questão importante na comunicação via satélite, especialm
   - Maior latência em comparação com redes terrestres (especialmente fibra óptica).
   - Dependência de condições climáticas para qualidade de sinal.
 
-### 9. **Segurança na Comunicação via Satélite**
+#### 9. **Segurança na Comunicação via Satélite**
 A comunicação via satélite enfrenta desafios de segurança, incluindo criptografia de dados para evitar interceptações e técnicas de mitigação de interferências, como jamming ou spoofing. Métodos modernos de segurança incluem o uso de chaves criptográficas robustas e firewalls dedicados para proteger as estações terrestres e satélites.
 
 
