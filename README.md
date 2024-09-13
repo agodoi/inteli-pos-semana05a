@@ -401,28 +401,28 @@ As antenas de chifre utilizam uma abertura em forma de cone para direcionar as o
 ### (4) Comunicação via Satélite
 
 
-A comunicação via satélite desempenha um papel essencial nas redes de computadores, especialmente quando se trata de conectar áreas geograficamente dispersas e fornecer cobertura global. Aqui estão os principais conceitos que podem ser explorados para um curso de alto nível sobre Redes de Computadores:
+A comunicação via satélite possui um importante papel nas redes de computadores, especialmente quando se trata de conectar áreas geograficamente dispersas e fornecer cobertura global. 
 
 #### 1. Princípio de Funcionamento da Comunicação via Satélite
-A comunicação via satélite envolve a transmissão de sinais de rádio entre estações terrestres e satélites que orbitam a Terra. Esses satélites recebem, amplificam e retransmitem os sinais de volta para a Terra, permitindo a comunicação entre locais distantes.
+A comunicação via satélite envolve a transmissão de sinais de rádio entre estações terrestres e os satélites que orbitam a Terra. Esses satélites recebem, amplificam e retransmitem os sinais de volta para a Terra, permitindo a comunicação entre locais distantes.
 
 #### Componentes principais:
-- **Estação transmissora (uplink)**: Envia o sinal da Terra para o satélite.
-- **Satélite**: Recebe o sinal, o amplifica e retransmite para outra região da Terra.
-- **Estação receptora (downlink)**: Recebe o sinal do satélite e o direciona ao destino final.
+- **Estação transmissora (uplink)**: envia o sinal da Terra para o satélite.
+- **Satélite**: recebe o sinal, o amplifica e retransmite para outra região da Terra.
+- **Estação receptora (downlink)**: recebe o sinal do satélite e o direciona ao destino final.
 
 #### 2. Órbitas de Satélites
 Satélites podem operar em diferentes órbitas, cada uma com suas características, dependendo da aplicação da rede de comunicação.
 
-- **Órbita Geoestacionária (GEO)**: Satélites estão a aproximadamente 35.786 km acima do equador, mantendo uma posição fixa em relação à Terra. Usada principalmente para comunicações de longa distância e televisão por satélite.
+- **Órbita Geoestacionária (GEO)**: Satélites estão a aproximadamente 36.000 km acima do equador, mantendo uma posição fixa em relação à Terra. Usada principalmente para comunicações de longa distância e televisão por satélite.
   - *Vantagem*: Cobertura contínua de grandes áreas, incluindo a cobertura de continentes inteiros.
-  - *Desvantagem*: Latência elevada (cerca de 250 ms), o que pode afetar a qualidade em aplicações de tempo real, como videoconferências.
+  - *Desvantagem*: Latência elevada (cerca de 250 ms no total para subir e descer), o que pode afetar a qualidade em aplicações de tempo real, como videoconferências.
 
 - **Órbita Baixa da Terra (LEO)**: Satélites a altitudes entre 500 e 2.000 km, movendo-se rapidamente em torno da Terra.
   - *Vantagem*: Baixa latência (20-40 ms), ideal para serviços de internet de alta velocidade, como as constelações de satélites Starlink.
   - *Desvantagem*: Cobertura limitada, o que requer uma constelação de satélites para garantir cobertura contínua.
 
-- **Órbita Média da Terra (MEO)**: Satélites entre 2.000 e 35.786 km, usados para comunicações de alcance intermediário.
+- **Órbita Média da Terra (MEO)**: Satélites entre 2.000 e 36.000 km, usados para comunicações de alcance intermediário.
   - *Vantagem*: Latência moderada (60-80 ms) com cobertura maior que os satélites LEO.
   - *Desvantagem*: Menor cobertura e maior latência que os satélites GEO.
 
@@ -442,36 +442,45 @@ A comunicação via satélite utiliza várias bandas de frequência para transmi
   - *Desvantagem*: Muito sensível à interferência atmosférica, como chuva.
 
 #### 4. Latência e Considerações de Desempenho
+
 A latência é uma questão importante na comunicação via satélite, especialmente em satélites geoestacionários (GEO). Isso se deve à grande distância que os sinais precisam percorrer. Para mitigar esse efeito, satélites de órbitas mais baixas (LEO) estão sendo utilizados para aplicações que exigem baixa latência, como jogos online e videoconferências.
 
 #### 5. Aplicações da Comunicação via Satélite
-- **Internet via satélite**: Usada em áreas rurais e remotas onde a infraestrutura terrestre de internet é limitada ou inexistente. Exemplos incluem Starlink, HughesNet, e Viasat.
-- **Comunicações de emergência**: Em desastres naturais ou situações em que a infraestrutura terrestre é destruída, a comunicação via satélite pode fornecer conectividade rápida e eficaz.
-- **Transmissões de TV**: A televisão via satélite, como a DirecTV ou a Sky, usa satélites para enviar conteúdo diretamente para os usuários finais.
-- **Sistemas de navegação**: O GPS é um exemplo de comunicação via satélite para navegação, permitindo rastreamento e posicionamento em tempo real.
+
+- **Internet via satélite**: usada em áreas rurais e remotas onde a infraestrutura terrestre de internet é limitada ou inexistente. Exemplos incluem Starlink, HughesNet, e Viasat.
+- **Comunicações de emergência**: em desastres naturais ou situações em que a infraestrutura terrestre é destruída, a comunicação via satélite pode fornecer conectividade rápida e eficaz.
+- **Transmissões de TV**: a televisão via satélite, como a DirecTV ou a Sky, usa satélites para enviar conteúdo diretamente para os usuários finais.
+- **Sistemas de navegação**: o GPS é um exemplo de comunicação via satélite para navegação, permitindo rastreamento e posicionamento em tempo real.
 
 #### 6. Desafios da Comunicação via Satélite
-- **Interferência atmosférica**: Fenômenos meteorológicos, como chuvas fortes e tempestades, podem afetar a qualidade do sinal, especialmente nas bandas Ku e Ka.
-- **Altos custos de lançamento**: Colocar satélites em órbita é caro, tanto em termos de lançamento quanto de manutenção.
-- **Capacidade limitada**: Embora satélites modernos tenham aumentado a largura de banda disponível, a capacidade ainda é limitada em comparação com redes terrestres de fibra óptica.
+
+- **Interferência atmosférica**: fenômenos meteorológicos, como chuvas fortes e tempestades, podem afetar a qualidade do sinal, especialmente nas bandas Ku e Ka.
+- **Altos custos de lançamento**: colocar satélites em órbita é caro, tanto em termos de lançamento quanto de manutenção.
+- **Capacidade limitada**: embora satélites modernos tenham aumentado a largura de banda disponível, a capacidade ainda é limitada em comparação com redes terrestres de fibra óptica.
 
 #### 7. Tecnologias Emergentes
-- **Constelações de satélites de órbita baixa (LEO)**: Empresas como SpaceX (Starlink) e Amazon (Project Kuiper) estão desenvolvendo grandes constelações de satélites em órbita baixa para fornecer internet de alta velocidade e baixa latência em todo o mundo.
+
+- **Constelações de satélites de órbita baixa (LEO)**: empresas como SpaceX (Starlink) e Amazon (Project Kuiper) estão desenvolvendo grandes constelações de satélites em órbita baixa para fornecer internet de alta velocidade e baixa latência em todo o mundo.
   
-- **Satélites de órbita inclinada**: Satélites que cobrem regiões específicas, como áreas polares, onde satélites geoestacionários não têm cobertura direta.
+- **Satélites de órbita inclinada**: satélites que cobrem regiões específicas, como áreas polares, onde satélites geoestacionários não têm cobertura direta.
 
 #### 8. Comparação com Outras Tecnologias de Rede
-- **Vantagens**:
+
+- **Vantagens**:  
   - Cobertura global, incluindo áreas remotas.
   - Alta confiabilidade em zonas de desastre ou onde a infraestrutura terrestre é limitada.
+
 - **Desvantagens**:
   - Maior latência em comparação com redes terrestres (especialmente fibra óptica).
   - Dependência de condições climáticas para qualidade de sinal.
 
 #### 9. **Segurança na Comunicação via Satélite**
+
 A comunicação via satélite enfrenta desafios de segurança, incluindo criptografia de dados para evitar interceptações e técnicas de mitigação de interferências, como jamming ou spoofing. Métodos modernos de segurança incluem o uso de chaves criptográficas robustas e firewalls dedicados para proteger as estações terrestres e satélites.
 
+Uma das maiores batalhas da indústria de TV Fechada é contra a pirataria dos decodificadores de canais ou os famosos **Net a Gato**. Essa luta se arrasta há 20 anos. Praticamente, temos uma indústria de decodificadores piratas de um lado e as empresas de TV Fechada do outro.
 
+Em 2024, a ANATEL lançou um hacktown de R$7.000,00 (sete mil reais) para o vencedor que encontrar uma solução contra a pirataria. O prejuízo anual das empresas de telecom é estimado em R$15 bilhões rsrsrs.
 
 ### (3) Potência dBm
 
