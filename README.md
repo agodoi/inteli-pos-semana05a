@@ -42,7 +42,60 @@ A topologia lógica descreve como os dados se movem dentro da rede, ou seja, o c
 
 #### (2.1.1) BOAS PRÁTICAS [30min] Crimpagem de cabo UTP e Teste
 
-Boas práticas
+Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns detalhes para garantir uma conexão eficiente e estável. Aqui estão as boas práticas para esse processo:
+
+### Boas Práticas para Crimpar um Cabo UTP Cat 5
+
+1. **Escolha do Cabo e Conectores Corretos**
+   - Verifique se o cabo é compatível com o padrão Cat 5.
+   - Utilize conectores RJ-45 adequados para cabos Cat 5 (ou Cat 5e).
+   
+2. **Corte Limpo do Cabo**
+   - Utilize uma ferramenta de corte para garantir que o cabo seja cortado de forma reta e precisa, evitando fios desalinhados que podem dificultar a conexão.
+
+3. **Desencape o Cabo Com Cuidado**
+   - Ao remover a capa externa do cabo, deixe expostos cerca de 2,5 cm (1 polegada) dos pares trançados internos.
+   - Não corte ou danifique os fios internos ao desencapar a parte externa.
+
+4. **Desenrolar e Organizar os Fios**
+   - Separe os pares de fios e os alinhe de acordo com o padrão escolhido (T568A ou T568B).
+   - Certifique-se de que os fios estão alinhados e retos antes de inserir no conector.
+   - Não desenrole demais os fios; mantenha a torção o mais próximo possível do conector, pois isso ajuda a minimizar interferências.
+
+5. **Escolha do Padrão Correto**
+   - Decida entre o padrão **T568A** ou **T568B** e certifique-se de seguir o mesmo padrão em ambas as extremidades do cabo, especialmente se estiver fazendo um cabo patch.
+   - As combinações de cores para o padrão T568A são:
+     - Verde/Branco
+     - Verde
+     - Laranja/Branco
+     - Azul
+     - Azul/Branco
+     - Laranja
+     - Marrom/Branco
+     - Marrom
+   - Para o padrão T568B (mais usado em redes residenciais):
+     - Laranja/Branco
+     - Laranja
+     - Verde/Branco
+     - Azul
+     - Azul/Branco
+     - Verde
+     - Marrom/Branco
+     - Marrom
+
+6. **Inserção Correta dos Fios no Conector**
+   - Certifique-se de que os fios estão perfeitamente alinhados e nivelados antes de inserir no conector RJ-45.
+   - Pressione firmemente os fios dentro do conector até que cada um toque seu respectivo pino de metal.
+   - O cabo externo (capa) deve estar preso dentro do conector para maior resistência e durabilidade.
+
+7. **Uso da Ferramenta de Crimpagem**
+   - Posicione o conector no alicate de crimpagem e aperte firmemente para fixar os contatos metálicos nos fios.
+   - Certifique-se de que o conector está totalmente inserido no alicate antes de crimpar para evitar crimpar mal e danificar o conector.
+
+8. **Teste o Cabo**
+   - Após crimpar, utilize um **testador de cabos** para garantir que todos os fios estão corretamente conectados e o cabo está funcionando corretamente.
+   - Verifique se todos os pares estão funcionando e se não há fios cruzados ou mal conectados.
+
 
 #### (2.1.2) BOAS PRÁTICA [20min] Emendas de Cabos de Dados
 
