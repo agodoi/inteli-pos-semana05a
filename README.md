@@ -486,7 +486,7 @@ Em 2024, a ANATEL lançou um hacktown de R$7.000,00 (sete mil reais) para o venc
 
 ### Conceito de dBm
 
-O **dBm** é uma unidade de medida que expressa a potência de um sinal em **decibéis** (dB) em relação a **1 milivatt (mW)**. É uma medida logarítmica utilizada para avaliar a força de um sinal de transmissão ou recepção, como o sinal de Wi-Fi em uma rede LAN.
+O **dBm** é uma unidade de medida que expressa a potência de um sinal em **decibéis** (dB) em relação a **1 milivatt (mW)**. É uma medida logarítmica utilizada para avaliar a intensidade de um sinal de transmissão ou recepção, como o sinal de Wi-Fi em uma rede LAN. Foi criado pelo Graham Bell como forma de medir sua invensão, o sinal do telefone nas casas dos clientes.
 
 - **dB** (decibéis) é uma medida relativa, usada para comparar níveis de potência.
 - **dBm** é uma medida absoluta, referida a uma potência de 1 mW.
@@ -501,46 +501,32 @@ Por exemplo:
 - Se a potência do sinal é de 1 mW, o valor em dBm será 0 dBm.
 - Se a potência é 10 mW, o valor será 10 dBm.
 
+Curiosidade: a presença do 10 na fórmula apelidou de 10 Bells ou Decibel.
+
 ### Importância do dBm na Medição de Sinal Wi-Fi
 
-No contexto de redes LAN, particularmente para redes Wi-Fi, o **dBm** é extremamente importante para avaliar a **qualidade e a força do sinal**. Ele indica o nível de potência que um dispositivo está recebendo do ponto de acesso (AP). Como o sinal de Wi-Fi tende a se atenuar à medida que se distancia do roteador ou encontra obstáculos (como paredes), o valor de dBm ajuda a determinar a qualidade da conexão.
+No contexto de redes LAN, particularmente para redes Wi-Fi, o **dBm** é importante para avaliar a **qualidade e a intensidade do sinal**. Ele indica o nível de potência que um dispositivo está recebendo do ponto de acesso (AP - Access Point). Como o sinal de Wi-Fi tende a se atenuar à medida que se distancia do roteador ou encontra obstáculos (como paredes), o valor de dBm ajuda a determinar a qualidade da conexão.
 
 ### Interpretação dos Valores de dBm
 
-Como o dBm é uma escala logarítmica, números mais negativos indicam sinais mais fracos. Aqui está uma escala de interpretação comum para redes Wi-Fi:
+Como o dBm é uma escala logarítmica, números mais negativos indicam sinais mais fracos. Veja uma escala de interpretação comum para redes Wi-Fi:
 
-- **0 a -30 dBm**: Sinal excelente. O dispositivo está muito próximo ao roteador, e a conexão será muito rápida e estável.
-- **-31 a -50 dBm**: Sinal muito bom. Ainda proporciona alta qualidade de conexão.
-- **-51 a -60 dBm**: Sinal bom. A maioria das aplicações funcionará sem problemas.
-- **-61 a -70 dBm**: Sinal aceitável. Pode haver alguma queda na velocidade ou na estabilidade da conexão, especialmente em ambientes congestionados.
-- **-71 a -80 dBm**: Sinal fraco. A conexão pode ser instável, com quedas de velocidade ou interrupções.
-- **-81 dBm ou mais fraco**: Sinal muito fraco ou inexistente. Provavelmente, o dispositivo não conseguirá se conectar.
+- **0 a -30 dBm**: sinal excelente. O dispositivo está muito próximo ao roteador, e a conexão será muito rápida e estável.
+- **-31 a -50 dBm**: sinal muito bom. Ainda proporciona alta qualidade de conexão.
+- **-51 a -60 dBm**: sinal bom. A maioria das aplicações funcionará sem problemas.
+- **-61 a -70 dBm**: sinal aceitável. Pode haver alguma queda na velocidade ou na estabilidade da conexão, especialmente em ambientes congestionados.
+- **-71 a -80 dBm**: sinal fraco. A conexão pode ser instável, com quedas de velocidade ou interrupções.
+- **-81 dBm ou mais fraco**: sinal muito fraco ou inexistente. Provavelmente, o dispositivo não conseguirá se conectar.
 
 ### Por que Medir o dBm em Redes Wi-Fi?
 
-- **Otimização de Cobertura**: Medir o dBm permite identificar pontos "cegos" ou áreas de sinal fraco dentro de um ambiente, como em um escritório ou residência. Isso ajuda a otimizar a localização de roteadores ou pontos de acesso.
+- **Otimização de Cobertura**: medir o dBm permite identificar pontos "cegos" ou áreas de sinal fraco dentro de um ambiente, como em um escritório ou residência. Isso ajuda a otimizar a localização de roteadores ou pontos de acesso.
   
-- **Diagnóstico de Problemas de Conexão**: Se um dispositivo estiver experimentando problemas de conexão, medir o dBm pode ajudar a diagnosticar se o problema é causado por um sinal fraco.
+- **Diagnóstico de Problemas de Conexão**: se um dispositivo estiver experimentando problemas de conexão, medir o dBm pode ajudar a diagnosticar se o problema é causado por um sinal fraco.
 
 - **Configuração de Redes Mesh**: Em redes Wi-Fi que utilizam tecnologia Mesh, a medição de dBm ajuda a posicionar os nós de forma eficiente para maximizar a cobertura e minimizar a interferência.
 
-- **Análise de Interferência**: O dBm também pode ser utilizado para detectar interferências de outros dispositivos que operam na mesma frequência, como micro-ondas ou telefones sem fio, permitindo ajustes no canal de operação do Wi-Fi.
-
-### Aplicação Prática no Curso de Redes
-
-Em um curso de redes de computadores, a medição do dBm pode ser abordada através de atividades práticas, como:
-
-1. **Utilização de Ferramentas de Medição**: Softwares e aplicativos como **Wi-Fi Analyzer** ou **inSSIDer** podem ser usados para medir o dBm em diferentes pontos de uma rede Wi-Fi.
-   
-2. **Mapeamento de Sinal Wi-Fi (Heatmaps)**: Ensinar os alunos a criar um mapa de sinal Wi-Fi, mostrando as áreas com diferentes níveis de dBm. Isso visualiza a cobertura da rede e permite ajustes para melhorar o desempenho.
-
-3. **Configuração de Antenas e Amplificadores**: Compreender o dBm é essencial ao ajustar antenas, amplificadores ou repetidores de sinal para melhorar a cobertura de uma rede Wi-Fi.
-
-4. **Simulações**: Emular cenários onde o sinal Wi-Fi tem uma forte atenuação (por exemplo, obstáculos como paredes) e como o valor do dBm muda conforme o ambiente.
-
-### Conclusão
-
-O **dBm** é um conceito fundamental para quem deseja medir e melhorar a qualidade de uma rede Wi-Fi, permitindo entender melhor a distribuição do sinal e identificar problemas de cobertura. Ensinar aos alunos a interpretação dos valores de dBm e como aplicar esse conhecimento em cenários práticos garante que eles possam planejar, otimizar e solucionar problemas em redes LAN, especialmente em ambientes de redes sem fio.
+- **Análise de Interferência**: o dBm também pode ser utilizado para detectar interferências de outros dispositivos que operam na mesma frequência, como micro-ondas ou telefones sem fio, permitindo ajustes no canal de operação do Wi-Fi.
 
 
 ### (3.1) BOAS PRÁTICAS [15min] Exercícios teóricos
