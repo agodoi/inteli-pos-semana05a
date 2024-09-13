@@ -42,27 +42,27 @@ A **topologia lógica** descreve como os dados se movem dentro da rede, ou seja,
 * Desvantagens: menor alcance e susceptibilidade a interferências em comparação com outros meios.
 
 
-#### (2.1.1) BOAS PRÁTICAS [30min] Crimpagem do cabo UTP e Teste
+### (2.2) BOAS PRÁTICAS [30min] Crimpagem do cabo UTP e Teste
 
 Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns detalhes para garantir uma conexão eficiente e estável. Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e passar no teste de condutividade. Usar o padrão 568A nas duas pontas. Você também pode optar pelo 568B nas duas pontas. Aqui estão as boas práticas para esse processo:
 
-1. **Escolha do Cabo e Conectores Corretos**
+a. **Escolha do Cabo e Conectores Corretos**
    - Verifique se o cabo é compatível com o padrão Cat 5.
    - Utilize conectores RJ-45 adequados para cabos Cat 5 (ou Cat 5e).
    
-2. **Corte Limpo do Cabo**
+b. **Corte Limpo do Cabo**
    - Utilize uma ferramenta de corte para garantir que o cabo seja cortado de forma reta e precisa, evitando fios desalinhados que podem dificultar a conexão.
 
-3. **Desencape o Cabo Com Cuidado**
+c. **Desencape o Cabo Com Cuidado**
    - Ao remover a capa externa do cabo, deixe expostos cerca de 2,5 cm (1 polegada) dos pares trançados internos.
    - Não desencape, ou corte ou danifique os fios internos no momento de desencapar a capa externa.
 
-4. **Desenrolar e Organizar os Fios**
+d. **Desenrolar e Organizar os Fios**
    - Separe os pares de fios e os alinhe de acordo com o padrão escolhido (T568A ou T568B).
    - Certifique-se de que os fios estão alinhados e retos antes de inserir no conector.
    - Não desenrole demais os fios; mantenha a torção o mais próximo possível do conector, pois isso ajuda a minimizar interferências.
 
-5. **Escolha do Padrão Correto**
+e. **Escolha do Padrão Correto**
    - Decida entre o padrão **T568A** ou **T568B** e certifique-se de seguir o mesmo padrão em ambas as extremidades do cabo, especialmente se estiver fazendo um cabo patch.
    - As combinações de cores para o padrão T568A são:
      - pino (1) Verde/Branco
@@ -83,77 +83,77 @@ Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns det
      - pino (7) Marrom/Branco
      - pino (8) Marrom
 
-6. **Inserção Correta dos Fios no Conector**
+f. **Inserção Correta dos Fios no Conector**
    - Certifique-se de que os fios estão perfeitamente alinhados e nivelados antes de inserir no conector RJ-45.
    - Pressione firmemente os fios dentro do conector até que cada um toque seu respectivo pino de metal.
    - O cabo externo (capa) deve estar preso dentro do conector para maior resistência e durabilidade.
 
-7. **Uso da Ferramenta de Crimpagem**
+g. **Uso da Ferramenta de Crimpagem**
    - Posicione o conector no alicate de crimpagem e aperte firmemente para fixar os contatos metálicos nos fios.
    - Certifique-se de que o conector está totalmente inserido no alicate antes de crimpar para evitar crimpar mal e danificar o conector.
 
-8. **Teste o Cabo**
+h. **Teste o Cabo**
    - Após crimpar, utilize um **testador de cabos** para garantir que todos os fios estão corretamente conectados e o cabo está funcionando corretamente.
    - Verifique se todos os pares estão funcionando e se não há fios cruzados ou mal conectados.
 
 ---
 
-#### (2.1.2) BOAS PRÁTICA [20min] Emendas de Cabos de Dados
+### (2.3) BOAS PRÁTICA [20min] Emendas de Cabos de Dados
 
 COLOCAR IMAGEM DE UMA EMENDA DE CABO FLEXÍVEL
 
 Fazer emendas de cabos coaxiais exige cuidado para garantir que o sinal seja transmitido corretamente, sem perda de qualidade ou interferência. Aqui estão algumas boas práticas ao realizar esse tipo de emenda:
 
-1. **Utilize Conectores e Ferramentas de Qualidade**
+a. **Utilize Conectores e Ferramentas de Qualidade**
    - Use conectores coaxiais de boa qualidade, compatíveis com o tipo de cabo (RG6, RG59, etc.).
    - Ferramentas adequadas, como alicates decapadores e crimpatrizes, são essenciais para garantir uma emenda firme e sem danos ao cabo.
 
-2. **Corte Limpo e Reto do Cabo**
+b. **Corte Limpo e Reto do Cabo**
    - Ao cortar o cabo coaxial, utilize uma ferramenta apropriada para garantir que o corte seja reto e uniforme. Alicates cegos deixam rebarbas que podem fechar curto.
    - Um corte torto pode causar problemas de conexão ou dificuldade ao fixar os conectores.
 
-3. **Desencape o Cabo com Cuidado**
+c. **Desencape o Cabo com Cuidado**
    - Utilize uma ferramenta decapadora para remover a camada externa do cabo coaxial. É importante remover a quantidade correta da capa + malha sem danificar o condutor central.
    - Deixe expostos o condutor central (fio de cobre ou alumínio).
    - Certifique-se que a malha metálica não está encostando no fio central.
    - Alguns conectores de coaxial exigem que a malha seja preservada dobrando-a cuidadosamente para trás para evitar que entre em contato com o condutor central.
 
-4. **Não Deixe Exposta a Blindagem**
+d. **Não Deixe Exposta a Blindagem**
    - A malha de proteção e o condutor central nunca devem se tocar, pois isso pode causar curtos-circuitos e perda de sinal.
    - Após desencapar, certifique-se de que a malha está dobrada e organizada, e o condutor central está isolado.
 
-5. **Use Conectores F (ou outros conectores apropriados)**
+e. **Use Conectores F (ou outros conectores apropriados)**
    - Utilize conectores F, BNC ou outros apropriados para o tipo de cabo coaxial que está sendo utilizado. Os conectores devem ser crimpos ou rosqueados corretamente para garantir boa conexão.
    - Conectores F exigem que o condutor central passe pelo orifício no centro do conector, e a malha fique em contato com o corpo metálico do conector para fazer a blindagem adequada.
 
 COLOCAR FOTOS
 
-6. **Uso de Adaptadores de Emenda**
+f. **Uso de Adaptadores de Emenda**
    - Para emendas diretas entre dois cabos coaxiais, utilize adaptadores de emenda específicos (barril de emenda coaxial). Eles garantem uma emenda estável e minimizam a perda de sinal.
    - Evite emendas improvisadas (como fitas isolantes), que podem prejudicar a qualidade do sinal e a durabilidade da conexão.
 
 COLOCA FOTOS
 
-7. **Verificação da Impedância**
+g. **Verificação da Impedância**
    - Verifique se os conectores e cabos utilizados são compatíveis em termos de impedância. Cabos coaxiais são normalmente de 50 ou 75 ohms, e é importante manter a mesma impedância ao longo de toda a conexão para evitar perda de sinal ou reflexões.
 
-8. **Dobras e passagens**
+h. **Dobras e passagens**
    - Jamais faça dobras de 90º no cabo coaxial, pois isso danifica internamente a estrutura do material dielétrico que separa o condutor central da malha metálica, causando reflexões do sinal e perdas do dBm.
 
-9. **Isolamento Adequado**
+i. **Isolamento Adequado**
    - Certifique-se de que o condutor central e a malha estão bem isolados para evitar interferências e curto-circuitos.
    - Para isso, use um multímetro na escala ôhmica e um terminal de 75 ohms conectado na outra ponta do cabo coaxial.
    - Após conectar o cabo coaxial em um conector, isole a emenda adequadamente com **fita isolante de autofusão** fazendo uma camada de ida e outra camada de volta partindo do lado do cabo e cobrindo até o conector metálico em um comprimento equivalente a um conector sobre a capa e a emenda. Sobreposição de 50%.
    - Após fazer a camada de ida e volta com a fita de autofusão, faça outra 2 camadas de ida e volta usando fita isolante. Sobreposição de 50%.
    - Finalize a emenda com uma fita tipo Hellerman travando as pontas da fita isolante para não se soltar no calor.
    
-10. **Teste Final da Conexão**
+j. **Teste Final da Conexão**
     - Após a emenda, teste a qualidade do sinal usando um multimetro e o terminal de carga de 75 ohms. O valor marcado no multímetro deve o mais próximo de 75 ohms.
     - Verifique a integridade da conexão e, se necessário, refaça a crimpagem ou substitua os conectores.
 
 ---
 
-### (2.2) Óptico
+### (2.4) Óptico
 
    O meio óptico utiliza fibras ópticas feitas de vidro ou plástico para transmitir dados por meio de pulsos de luz, em vez de sinais elétricos. A fibra óptica é capaz de transportar grandes quantidades de dados a altas velocidades por longas distâncias com mínima perda de sinal.
 
@@ -164,7 +164,7 @@ COLOCA FOTOS
 
 ---
 
-### (2.3) Eletromagnético
+### (2.5) Eletromagnético
 
    O meio eletromagnético envolve a transmissão de dados por ondas de rádio, micro-ondas, ou infravermelho através do ar, sem a necessidade de cabos físicos. Esse tipo de transmissão é amplamente utilizado em redes sem fio (wireless).
 
@@ -403,7 +403,7 @@ As antenas de chifre utilizam uma abertura em forma de cone para direcionar as o
 
 A comunicação via satélite possui um importante papel nas redes de computadores, especialmente quando se trata de conectar áreas geograficamente dispersas e fornecer cobertura global. 
 
-#### 1. Princípio de Funcionamento da Comunicação via Satélite
+#### Princípio de Funcionamento da Comunicação via Satélite
 A comunicação via satélite envolve a transmissão de sinais de rádio entre estações terrestres e os satélites que orbitam a Terra. Esses satélites recebem, amplificam e retransmitem os sinais de volta para a Terra, permitindo a comunicação entre locais distantes.
 
 #### Componentes principais:
@@ -411,7 +411,7 @@ A comunicação via satélite envolve a transmissão de sinais de rádio entre e
 - **Satélite**: recebe o sinal, o amplifica e retransmite para outra região da Terra.
 - **Estação receptora (downlink)**: recebe o sinal do satélite e o direciona ao destino final.
 
-#### 2. Órbitas de Satélites
+#### Orbitas de Satélites
 Satélites podem operar em diferentes órbitas, cada uma com suas características, dependendo da aplicação da rede de comunicação.
 
 - **Órbita Geoestacionária (GEO)**: Satélites estão a aproximadamente 36.000 km acima do equador, mantendo uma posição fixa em relação à Terra. Usada principalmente para comunicações de longa distância e televisão por satélite.
@@ -426,7 +426,7 @@ Satélites podem operar em diferentes órbitas, cada uma com suas característic
   - *Vantagem*: Latência moderada (60-80 ms) com cobertura maior que os satélites LEO.
   - *Desvantagem*: Menor cobertura e maior latência que os satélites GEO.
 
-#### 3. Frequências de Operação
+#### Frequências de Operação
 A comunicação via satélite utiliza várias bandas de frequência para transmissão, dependendo da aplicação e da distância.
 
 - **Banda C (4-8 GHz)**: Usada principalmente para transmissões de televisão e algumas comunicações de voz.
@@ -441,30 +441,30 @@ A comunicação via satélite utiliza várias bandas de frequência para transmi
   - *Vantagem*: Oferece alta largura de banda.
   - *Desvantagem*: Muito sensível à interferência atmosférica, como chuva.
 
-#### 4. Latência e Considerações de Desempenho
+#### Latência e Considerações de Desempenho
 
 A latência é uma questão importante na comunicação via satélite, especialmente em satélites geoestacionários (GEO). Isso se deve à grande distância que os sinais precisam percorrer. Para mitigar esse efeito, satélites de órbitas mais baixas (LEO) estão sendo utilizados para aplicações que exigem baixa latência, como jogos online e videoconferências.
 
-#### 5. Aplicações da Comunicação via Satélite
+#### Aplicações da Comunicação via Satélite
 
 - **Internet via satélite**: usada em áreas rurais e remotas onde a infraestrutura terrestre de internet é limitada ou inexistente. Exemplos incluem Starlink, HughesNet, e Viasat.
 - **Comunicações de emergência**: em desastres naturais ou situações em que a infraestrutura terrestre é destruída, a comunicação via satélite pode fornecer conectividade rápida e eficaz.
 - **Transmissões de TV**: a televisão via satélite, como a DirecTV ou a Sky, usa satélites para enviar conteúdo diretamente para os usuários finais.
 - **Sistemas de navegação**: o GPS é um exemplo de comunicação via satélite para navegação, permitindo rastreamento e posicionamento em tempo real.
 
-#### 6. Desafios da Comunicação via Satélite
+#### Desafios da Comunicação via Satélite
 
 - **Interferência atmosférica**: fenômenos meteorológicos, como chuvas fortes e tempestades, podem afetar a qualidade do sinal, especialmente nas bandas Ku e Ka.
 - **Altos custos de lançamento**: colocar satélites em órbita é caro, tanto em termos de lançamento quanto de manutenção.
 - **Capacidade limitada**: embora satélites modernos tenham aumentado a largura de banda disponível, a capacidade ainda é limitada em comparação com redes terrestres de fibra óptica.
 
-#### 7. Tecnologias Emergentes
+#### Tecnologias Emergentes
 
 - **Constelações de satélites de órbita baixa (LEO)**: empresas como SpaceX (Starlink) e Amazon (Project Kuiper) estão desenvolvendo grandes constelações de satélites em órbita baixa para fornecer internet de alta velocidade e baixa latência em todo o mundo.
   
 - **Satélites de órbita inclinada**: satélites que cobrem regiões específicas, como áreas polares, onde satélites geoestacionários não têm cobertura direta.
 
-#### 8. Comparação com Outras Tecnologias de Rede
+#### Comparação com Outras Tecnologias de Rede
 
 - **Vantagens**:  
   - Cobertura global, incluindo áreas remotas.
@@ -474,7 +474,7 @@ A latência é uma questão importante na comunicação via satélite, especialm
   - Maior latência em comparação com redes terrestres (especialmente fibra óptica).
   - Dependência de condições climáticas para qualidade de sinal.
 
-#### 9. **Segurança na Comunicação via Satélite**
+#### Segurança na Comunicação via Satélite
 
 A comunicação via satélite enfrenta desafios de segurança, incluindo criptografia de dados para evitar interceptações e técnicas de mitigação de interferências, como jamming ou spoofing. Métodos modernos de segurança incluem o uso de chaves criptográficas robustas e firewalls dedicados para proteger as estações terrestres e satélites.
 
@@ -482,9 +482,7 @@ Uma das maiores batalhas da indústria de TV Fechada é contra a pirataria dos d
 
 Em 2024, a ANATEL lançou um hacktown de R$7.000,00 (sete mil reais) para o vencedor que encontrar uma solução contra a pirataria. O prejuízo anual das empresas de telecom é estimado em R$15 bilhões rsrsrs.
 
-### (3) Potência dBm
-
-### Conceito de dBm
+### (5) Conceitos de dBm
 
 O **dBm** é uma unidade de medida que expressa a potência de um sinal em **decibéis** (dB) em relação a **1 milivatt (mW)**. É uma medida logarítmica utilizada para avaliar a intensidade de um sinal de transmissão ou recepção, como o sinal de Wi-Fi em uma rede LAN. Foi criado pelo Graham Bell como forma de medir sua invensão, o sinal do telefone nas casas dos clientes.
 
@@ -503,11 +501,11 @@ Por exemplo:
 
 Curiosidade: a presença do 10 na fórmula apelidou de 10 Bells ou Decibel.
 
-### Importância do dBm na Medição de Sinal Wi-Fi
+### (5.1) Importância do dBm na Medição de Sinal Wi-Fi
 
 No contexto de redes LAN, particularmente para redes Wi-Fi, o **dBm** é importante para avaliar a **qualidade e a intensidade do sinal**. Ele indica o nível de potência que um dispositivo está recebendo do ponto de acesso (AP - Access Point). Como o sinal de Wi-Fi tende a se atenuar à medida que se distancia do roteador ou encontra obstáculos (como paredes), o valor de dBm ajuda a determinar a qualidade da conexão.
 
-### Interpretação dos Valores de dBm
+### (5.2) Interpretação dos Valores de dBm
 
 Como o dBm é uma escala logarítmica, números mais negativos indicam sinais mais fracos. Veja uma escala de interpretação comum para redes Wi-Fi:
 
@@ -518,7 +516,7 @@ Como o dBm é uma escala logarítmica, números mais negativos indicam sinais ma
 - **-71 a -80 dBm**: sinal fraco. A conexão pode ser instável, com quedas de velocidade ou interrupções.
 - **-81 dBm ou mais fraco**: sinal muito fraco ou inexistente. Provavelmente, o dispositivo não conseguirá se conectar.
 
-### Por que Medir o dBm em Redes Wi-Fi?
+### (5.3) Por que Medir o dBm em Redes Wi-Fi?
 
 - **Otimização de Cobertura**: medir o dBm permite identificar pontos "cegos" ou áreas de sinal fraco dentro de um ambiente, como em um escritório ou residência. Isso ajuda a otimizar a localização de roteadores ou pontos de acesso.
   
@@ -529,14 +527,14 @@ Como o dBm é uma escala logarítmica, números mais negativos indicam sinais ma
 - **Análise de Interferência**: o dBm também pode ser utilizado para detectar interferências de outros dispositivos que operam na mesma frequência, como micro-ondas ou telefones sem fio, permitindo ajustes no canal de operação do Wi-Fi.
 
 
-### (3.1) BOAS PRÁTICAS [15min] Exercícios teóricos
+### (5.4) BOAS PRÁTICAS [15min] Exercícios teóricos
 
 pegar os exercícios do ppt
 
-### (3.2) BOAS PRÁTICAS [30min] Mapa de Calor WiFi (medição do dBm)
+### (6) BOAS PRÁTICAS [30min] Mapa de Calor WiFi (medição do dBm)
 
 testar diferenças entre posições de antenas, gaiola de faraday, uso de metais próximos 
 
-### (3.3) BOAS PRÁTICAS [30min] Alinhamento de antena de satélites
+### (7) BOAS PRÁTICAS [30min] Alinhamento de antena de satélites
 
 pegar os passos do ppt
