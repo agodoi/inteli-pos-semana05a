@@ -26,6 +26,8 @@ A topologia lógica descreve como os dados se movem dentro da rede, ou seja, o c
 
 **COLOCAR UMA FIGURA DA TOPOLOGIA LÓGICA**
 
+---
+
 ## (2) Tipos de Meios de Transmissão
 
    Os meios de transmissão são os canais pelos quais os dados se movem de um dispositivo para outro em uma rede. Eles podem ser classificados em três grandes categorias: par metálico, óptico e eletromagnético. Cada um desses meios tem características próprias que influenciam sua velocidade, capacidade, e alcance.
@@ -98,6 +100,7 @@ Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e pa
    - Após crimpar, utilize um **testador de cabos** para garantir que todos os fios estão corretamente conectados e o cabo está funcionando corretamente.
    - Verifique se todos os pares estão funcionando e se não há fios cruzados ou mal conectados.
 
+---
 
 #### (2.1.2) BOAS PRÁTICA [20min] Emendas de Cabos de Dados
 
@@ -154,6 +157,7 @@ COLOCA FOTOS
     - Após a emenda, teste a qualidade do sinal usando um multimetro e o terminal de carga de 75 ohms. O valor marcado no multímetro deve o mais próximo de 75 ohms.
     - Verifique a integridade da conexão e, se necessário, refaça a crimpagem ou substitua os conectores.
 
+---
 
 ### (2.2) Óptico
 
@@ -173,6 +177,8 @@ COLOCA FOTOS
 * Infravermelho: Utilizado em comunicações de curta distância, como controles remotos ou em alguns dispositivos IoT.
 * Vantagens: flexibilidade e mobilidade, já que não depende de cabos.
 * Desvantagens: susceptibilidade a interferências, obstáculos físicos e limitações de alcance e largura de banda.
+
+---
 
 #### (2.3.1) Antenas
 
