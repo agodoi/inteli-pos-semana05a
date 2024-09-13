@@ -13,7 +13,7 @@ A **topologia física** se refere à disposição real e física dos cabos, disp
    <img alt="Topologias de Redes" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/network-topology.png)">
 </picture>
 
-O mais comum para o ambiente de computadores é o **Estrela** que também pode ser estendido para **Estrela Estendida** quando uma estrela dá origem para outra estrela.
+Para o padrão Ethernet, adota-se **Estrela** que também pode ser estendido para **Estrela Estendida** quando uma estrela dá origem para outra estrela.
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/estrela_extendida.png">
