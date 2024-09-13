@@ -1,6 +1,6 @@
 # Introdução às Redes de Computadores
 
-## (1) Tipos de Topologias de Rede
+## (1) Topologias de Rede
 
 Topologia de Rede é a maneira como os elementos de uma rede estão organizados e interligados. Ela pode ser classificada em duas categorias: **topologia física** e **topologia lógica**. 
 
