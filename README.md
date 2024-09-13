@@ -28,7 +28,7 @@ A topologia lógica descreve como os dados se movem dentro da rede, ou seja, o c
 
 ## (2) Tipos de Meios de Transmissão
 
-Os meios de transmissão são os canais pelos quais os dados se movem de um dispositivo para outro em uma rede. Eles podem ser classificados em três grandes categorias: par metálico, óptico e eletromagnético. Cada um desses meios tem características próprias que influenciam sua velocidade, capacidade, e alcance.
+   Os meios de transmissão são os canais pelos quais os dados se movem de um dispositivo para outro em uma rede. Eles podem ser classificados em três grandes categorias: par metálico, óptico e eletromagnético. Cada um desses meios tem características próprias que influenciam sua velocidade, capacidade, e alcance.
 
 ### (2.1) Par metálico
 
@@ -40,11 +40,11 @@ Os meios de transmissão são os canais pelos quais os dados se movem de um disp
 * Desvantagens: menor alcance e susceptibilidade a interferências em comparação com outros meios.
 
 
-#### (2.1.1) Crimpagem de cabo UTP e Teste
+#### (2.1.1) BOAS PRÁTICAS [30min] Crimpagem de cabo UTP e Teste
 
 Boas práticas
 
-#### (2.1.2) Boas Práticas de Emendas de Cabos de Dados
+#### (2.1.2) BOAS PRÁTICA [20min] Emendas de Cabos de Dados
 
 Boas práticas com coaxial e cabos flexíveis
 
@@ -79,13 +79,16 @@ tipos e utilidades
 ### (3) Potência dBm
 
 
-### (3.1) Exercícios teóricos
+### (3.1) BOAS PRÁTICAS [15min] Exercícios teóricos
 
 
-### (3.2) Exercícios práticos de medição do dBm usando celular
+### (3.2) BOAS PRÁTICAS [10min] Medição do dBm
 
-### (3.3) Mapa de Calor WiFi
 
-### (3.3) Alinhamento de antena de satélites
+### (3.3) BOAS PRÁTICAS [30min] Mapa de Calor WiFi
+
+testar diferenças entre posições de antenas, gaiola de faraday, uso de metais próximos 
+
+### (3.3) BOAS PRÁTICAS [30min] Alinhamento de antena de satélites
 
 
