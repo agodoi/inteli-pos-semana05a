@@ -2,7 +2,7 @@
 
 ## (1) Tipos de Topologias de Rede
 
-E a maneira como os elementos de uma rede estão organizados e interligados. Ela pode ser classificada em duas categorias: **topologia física** e **topologia lógica**. 
+Topologia de Rede é a maneira como os elementos de uma rede estão organizados e interligados. Ela pode ser classificada em duas categorias: **topologia física** e **topologia lógica**. 
 
 ### (1.1) Física
 
