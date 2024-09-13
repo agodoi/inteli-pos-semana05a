@@ -22,7 +22,7 @@ Para o padrão Ethernet, adota-se **Estrela** que também pode ser estendido par
 
 ### (1.2) Topologia Lógica
 
-A topologia lógica descreve como os dados se movem dentro da rede, ou seja, o caminho que as informações seguem independentemente da disposição física dos cabos e dispositivos. É sobre o fluxo de dados entre os dispositivos, que nem sempre segue a topologia física. Por exemplo, em uma rede fisicamente em estrela, os dados podem se comportar como se estivessem em uma topologia em barramento, dependendo de como os pacotes de dados são transmitidos entre os dispositivos.
+A **topologia lógica** descreve como os dados se movem dentro da rede, ou seja, o caminho que as informações seguem independentemente da disposição física dos cabos e dispositivos. O fluxo de dados entre os dispositivos, que nem sempre segue a topologia física. Por exemplo, em uma rede fisicamente em estrela, os dados podem se comportar como se estivessem em uma topologia em barramento, dependendo de como os pacotes de dados são transmitidos entre os dispositivos.
 
 **COLOCAR UMA FIGURA DA TOPOLOGIA LÓGICA**
 
@@ -30,25 +30,21 @@ A topologia lógica descreve como os dados se movem dentro da rede, ou seja, o c
 
 ## (2) Tipos de Meios de Transmissão
 
-   Os meios de transmissão são os canais pelos quais os dados se movem de um dispositivo para outro em uma rede. Eles podem ser classificados em três grandes categorias: par metálico, óptico e eletromagnético. Cada um desses meios tem características próprias que influenciam sua velocidade, capacidade, e alcance.
+   Os meios de transmissão são os canais pelos quais os dados se movem de um dispositivo para outro em uma rede. Eles podem ser classificados em três grandes categorias: par metálico, óptico e eletromagnético. Cada um desses meios tem características próprias que influenciam sua velocidade, capacidade e alcance.
 
 ### (2.1) Par metálico
 
-   O par metálico é um dos meios mais comuns e tradicionais usados para transmissão de dados, especialmente em redes locais e de telefonia. Ele utiliza cabos de cobre ou outro material metálico condutor para transmitir sinais elétricos. Existem dois tipos principais:
+   O **par metálico** é um dos meios mais comuns e tradicionais usados para transmissão de dados, especialmente em redes locais e de telefonia. Ele utiliza cabos de cobre ou outro material metálico condutor para transmitir sinais elétricos. Existem dois tipos principais:
 
-* Cabo coaxial: um condutor central de cobre cercado por uma malha metálica, usado principalmente em TV a cabo e redes antigas.
-* Cabo de par trançado (UTP/STP): dois fios de cobre trançados entre si, que ajudam a reduzir interferências eletromagnéticas. Esse é o tipo mais comum em redes de computadores, especialmente em conexões Ethernet.
+* Cabo coaxial: um condutor central de cobre cercado por uma malha metálica, usado principalmente em TV a cabo e redes antigas de dados.
+* Cabo de par trançado (UTP/STP): 8 fios de cobre trançados entre si, que ajudam a reduzir interferências eletromagnéticas. Esse é o tipo mais comum em redes de computadores, especialmente em conexões Ethernet.
 * Vantagens: baixo custo, facilidade de instalação e flexibilidade.
 * Desvantagens: menor alcance e susceptibilidade a interferências em comparação com outros meios.
 
 
-#### (2.1.1) BOAS PRÁTICAS [30min] Crimpagem de cabo UTP e Teste
+#### (2.1.1) BOAS PRÁTICAS [30min] Crimpagem do cabo UTP e Teste
 
-Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns detalhes para garantir uma conexão eficiente e estável. Aqui estão as boas práticas para esse processo:
-
-### Boas Práticas para Crimpar um Cabo UTP Cat 5
-
-Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e passar no teste de condutividade. Usar o padrão 568A nas duas pontas. Você também pode optar pelo 568B nas duas pontas.
+Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns detalhes para garantir uma conexão eficiente e estável. Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e passar no teste de condutividade. Usar o padrão 568A nas duas pontas. Você também pode optar pelo 568B nas duas pontas. Aqui estão as boas práticas para esse processo:
 
 1. **Escolha do Cabo e Conectores Corretos**
    - Verifique se o cabo é compatível com o padrão Cat 5.
@@ -59,7 +55,7 @@ Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e pa
 
 3. **Desencape o Cabo Com Cuidado**
    - Ao remover a capa externa do cabo, deixe expostos cerca de 2,5 cm (1 polegada) dos pares trançados internos.
-   - Não corte ou danifique os fios internos ao desencapar a parte externa.
+   - Não desencape, ou corte ou danifique os fios internos no momento de desencapar a capa externa.
 
 4. **Desenrolar e Organizar os Fios**
    - Separe os pares de fios e os alinhe de acordo com o padrão escolhido (T568A ou T568B).
@@ -69,23 +65,23 @@ Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e pa
 5. **Escolha do Padrão Correto**
    - Decida entre o padrão **T568A** ou **T568B** e certifique-se de seguir o mesmo padrão em ambas as extremidades do cabo, especialmente se estiver fazendo um cabo patch.
    - As combinações de cores para o padrão T568A são:
-     - Verde/Branco
-     - Verde
-     - Laranja/Branco
-     - Azul
-     - Azul/Branco
-     - Laranja
-     - Marrom/Branco
-     - Marrom
+     - pino (1) Verde/Branco
+     - pino (2) Verde
+     - pino (3) Laranja/Branco
+     - pino (4) Azul
+     - pino (5) Azul/Branco
+     - pino (6) Laranja
+     - pino (7) Marrom/Branco
+     - pino (8) Marrom
    - Para o padrão T568B (mais usado em redes residenciais):
-     - Laranja/Branco
-     - Laranja
-     - Verde/Branco
-     - Azul
-     - Azul/Branco
-     - Verde
-     - Marrom/Branco
-     - Marrom
+     - pino (1) Laranja/Branco
+     - pino (2) Laranja
+     - pino (3) Verde/Branco
+     - pino (4) Azul
+     - pino (5) Azul/Branco
+     - pino (6) Verde
+     - pino (7) Marrom/Branco
+     - pino (8) Marrom
 
 6. **Inserção Correta dos Fios no Conector**
    - Certifique-se de que os fios estão perfeitamente alinhados e nivelados antes de inserir no conector RJ-45.
@@ -107,8 +103,6 @@ Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e pa
 COLOCAR IMAGEM DE UMA EMENDA DE CABO FLEXÍVEL
 
 Fazer emendas de cabos coaxiais exige cuidado para garantir que o sinal seja transmitido corretamente, sem perda de qualidade ou interferência. Aqui estão algumas boas práticas ao realizar esse tipo de emenda:
-
-### Boas Práticas para Emendas de Cabos Coaxiais
 
 1. **Utilize Conectores e Ferramentas de Qualidade**
    - Use conectores coaxiais de boa qualidade, compatíveis com o tipo de cabo (RG6, RG59, etc.).
@@ -180,11 +174,16 @@ COLOCA FOTOS
 
 ---
 
-#### (2.3.1) Antenas
+## (3) Antenas
 
-Aqui está um levantamento dos principais tipos de antenas, suas aplicações, vantagens e desvantagens:
+Uma antena é um dispositivo usado para transmitir e receber ondas eletromagnéticas. Ela se comporta como um corpo resistivo numa dada frequência de operação.
+   
+   * Em termos simples, uma antena transmissora converte um pequeno sinal elétrico que passa em sua estrutra em ondas de rádio.
+   * Uma antena receptora, faz o contrário, isto é, detecta uma onda de rádio e tranforma numa pequena corrente elétrica.
+   
+Qualquer antena recebe ou emite sinais, mas sua eficiência fica melhor se sua estrutura metálica tiver um tamanho proporcional à sua frequência de operação. Por exemplo, antenas Wi-Fi operam em frequências de 2,4 GHz ou 5 GHz e por issom possuem pequenos tamanhos. Antenas de rádio AM e FM operam em frequências baixas menores, e por isso, possuem tamanhos maiores.
 
-### 1. **Antena Dipolo**
+### 3.1 Antena Dipolo
    
 #### Descrição:
 A antena dipolo é uma das antenas mais simples e comuns, composta por dois condutores retos alinhados de maneira colinear. Geralmente é utilizada para transmissões em VHF e UHF.
@@ -205,7 +204,7 @@ A antena dipolo é uma das antenas mais simples e comuns, composta por dois cond
 
 ---
 
-### 2. **Antena Yagi-Uda**
+### 3.2 **Antena Yagi-Uda**
 
 #### Descrição:
 A antena Yagi consiste em um dipolo ativo e uma série de elementos direcionais que melhoram o ganho em uma direção específica. É uma antena direcional bastante utilizada para sinais de TV e rádio.
@@ -226,7 +225,7 @@ A antena Yagi consiste em um dipolo ativo e uma série de elementos direcionais 
 
 ---
 
-### 3. **Antena Parabólica**
+### 3.3 Antena Parabólica
 
 #### Descrição:
 A antena parabólica utiliza uma superfície em formato de prato parabólico para refletir as ondas de rádio em direção a um ponto focal, onde o receptor ou transmissor está localizado.
@@ -248,7 +247,7 @@ A antena parabólica utiliza uma superfície em formato de prato parabólico par
 
 ---
 
-### 4. **Antena Log-Periódica**
+### 3.4 Antena Log-Periódica
 
 #### Descrição:
 Uma antena log-periódica é composta por vários elementos de tamanhos variáveis dispostos de maneira sequencial. Ela é projetada para operar em uma ampla faixa de frequências.
@@ -269,7 +268,7 @@ Uma antena log-periódica é composta por vários elementos de tamanhos variáve
 
 ---
 
-### 5. **Antena Omnidirecional**
+### 3.5 Antena Omnidirecional
 
 #### Descrição:
 As antenas omnidirecionais transmitem e recebem sinais em todas as direções no plano horizontal, sendo ideais para cobrir grandes áreas ao redor do ponto de emissão.
@@ -290,7 +289,7 @@ As antenas omnidirecionais transmitem e recebem sinais em todas as direções no
 
 ---
 
-### 6. **Antena de Patch (Microstrip)**
+### 3.6 Antena de Patch (Microstrip)
 
 #### Descrição:
 Antenas de patch, ou microstrip, são compostas por uma pequena superfície metálica plana que emite ou recebe sinais. Elas são comumente integradas a superfícies e são compactas.
@@ -311,7 +310,7 @@ Antenas de patch, ou microstrip, são compostas por uma pequena superfície met�
 
 ---
 
-### 7. **Antena de Loop**
+### 3.7 Antena de Loop
 
 #### Descrição:
 Antenas de loop consistem em um fio condutor em formato de círculo ou elipse. Elas podem ser pequenas (loop magnético) ou grandes, dependendo da aplicação.
@@ -332,7 +331,7 @@ Antenas de loop consistem em um fio condutor em formato de círculo ou elipse. E
 
 ---
 
-### 8. **Antena Slot**
+### 3.8 Antena Slot
 
 #### Descrição:
 A antena slot é uma abertura feita em uma superfície condutora, como uma folha de metal, que irradia sinais de rádio. Ela pode ser usada em várias formas e é aplicada principalmente em micro-ondas.
@@ -353,7 +352,7 @@ A antena slot é uma abertura feita em uma superfície condutora, como uma folha
 
 ---
 
-### 9. **Antena Helicoidal**
+### 3.9 Antena Helicoidal
 
 #### Descrição:
 Uma antena helicoidal é formada por um fio enrolado em forma de hélice e é utilizada para frequências que vão desde VHF até micro-ondas.
@@ -373,7 +372,7 @@ Uma antena helicoidal é formada por um fio enrolado em forma de hélice e é ut
 - Direcionalidade limitada
 
 
-### 10. **Antena de Chifre (Horn Antenna)**
+### 3.10 Antena de Chifre (Horn Antenna)
 
 #### Descrição:
 As antenas de chifre utilizam uma abertura em forma de cone para direcionar as ondas de rádio em frequências de micro-ondas. São geralmente usadas em conjunto com guias de onda.
