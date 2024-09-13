@@ -1,10 +1,10 @@
 # Introdução às Redes de Computadores
 
-## Tipos de Topologias de Rede
+## (1) Tipos de Topologias de Rede
 
 E a maneira como os elementos de uma rede estão organizados e interligados. Ela pode ser classificada em duas categorias: **topologia física** e **topologia lógica**. 
 
-### Física
+### (1.1) Física
 
 A **topologia física** se refere à disposição real e física dos cabos, dispositivos e outros componentes da rede. É a maneira como os cabos e equipamentos, como switches e roteadores, estão fisicamente conectados uns aos outros. Os hosts podem ser organizados em algum tipo de topologia a seguir:
 
@@ -20,17 +20,17 @@ O mais comum para o ambiente de computadores é o **Estrela** que também pode s
    <img alt="Estrela Estendida" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/estrela_extendida.png)">
 </picture>
 
-### Lógica
+### (1.2) Lógica
 
 A topologia lógica descreve como os dados se movem dentro da rede, ou seja, o caminho que as informações seguem independentemente da disposição física dos cabos e dispositivos. É sobre o fluxo de dados entre os dispositivos, que nem sempre segue a topologia física. Por exemplo, em uma rede fisicamente em estrela, os dados podem se comportar como se estivessem em uma topologia em barramento, dependendo de como os pacotes de dados são transmitidos entre os dispositivos.
 
 **COLOCAR UMA FIGURA DA TOPOLOGIA LÓGICA**
 
-## Tipos de Meios de Transmissão
+## (2) Tipos de Meios de Transmissão
 
 Os meios de transmissão são os canais pelos quais os dados se movem de um dispositivo para outro em uma rede. Eles podem ser classificados em três grandes categorias: par metálico, óptico e eletromagnético. Cada um desses meios tem características próprias que influenciam sua velocidade, capacidade, e alcance.
 
-### Par metálico
+### (2.1) Par metálico
 
    O par metálico é um dos meios mais comuns e tradicionais usados para transmissão de dados, especialmente em redes locais e de telefonia. Ele utiliza cabos de cobre ou outro material metálico condutor para transmitir sinais elétricos. Existem dois tipos principais:
 
@@ -42,7 +42,7 @@ Os meios de transmissão são os canais pelos quais os dados se movem de um disp
 
 COLOCAR FOTOS DOS TIPOS DE CABOS
 
-### Óptico
+### (2.2) Óptico
 
    O meio óptico utiliza fibras ópticas feitas de vidro ou plástico para transmitir dados por meio de pulsos de luz, em vez de sinais elétricos. A fibra óptica é capaz de transportar grandes quantidades de dados a altas velocidades por longas distâncias com mínima perda de sinal.
 
@@ -51,7 +51,7 @@ COLOCAR FOTOS DOS TIPOS DE CABOS
 * Vantagens: Alta velocidade, grande capacidade de dados e imunidade a interferências eletromagnéticas.
 * Desvantagens: custo mais alto e maior complexidade de instalação e manutenção.
 
-### Eletromagnético
+### (2.3) Eletromagnético
 
    O meio eletromagnético envolve a transmissão de dados por ondas de rádio, micro-ondas, ou infravermelho através do ar, sem a necessidade de cabos físicos. Esse tipo de transmissão é amplamente utilizado em redes sem fio (wireless).
 
@@ -62,45 +62,45 @@ COLOCAR FOTOS DOS TIPOS DE CABOS
 * Desvantagens: susceptibilidade a interferências, obstáculos físicos e limitações de alcance e largura de banda.
 
 
-
-#### Antenas
-
-#### Comunicação via Satélite
-
-### Potência dBm
-
-exercícios teóricos
-exercícios práticos de medição do dBm usando celular
-alinhamento de antena de satélites
+#### (2.3.1) Antenas
 
 
-## Tipos de Rede
 
-### PAN (Personal Area Network)
+#### (2.3.2) Comunicação via Satélite
+
+
+### (3) Potência dBm
+
+
+### (3.1) Exercícios teóricos
+
+
+### (3.2) Exercícios práticos de medição do dBm usando celular
+
+
+### (3.3) Alinhamento de antena de satélites
+
+
+## (4) Tipos de Rede
+
+### (4.1) PAN (Personal Area Network)
 
 Basicamente feita de dispositivos de curto alcance, em especial, os sem fio, via bluetooth;
 
-### LAN (Local Area Network)
+### (4.2) LAN (Local Area Network)
 
 Feita de cabos UTP ou STP, WiFi, conectando computadores, notebooks, TVs, projetores, Alexa, dispositivos IoT, impressores e servidores.
  
-### MAN (Metropolitan Area Network)
+### (4.3) MAN (Metropolitan Area Network)
 
 Feita de fibra óptica e rádio tipo minilink conectando empresas, hospitais, faculdades de diferentes endereços dentro de uma região metropolitana. Uma empresa ISP (Internet Service Provider) que alcança usuários dentro de uma cidade ou região metropolitana possui topologia física e lógica MAN.
 
-### WAN (Wide Area Network)
+### (4.4) WAN (Wide Area Network)
 
 Feita de fibra óptica e satélite. A Internet se mistura com uma WAN.
 
-## Vantagens de Desvantagens
 
-
-## Importância do Modelo OSI em Redes
-
-1) Organização dos protocolos em camadas (Modelo OSI);
-2) Protocolo IPV6;
-3) Topologias de redes;
-4) TCP e UDP;
+## (5) Importância do Modelo OSI em Redes
 
 Ambas as redes servem para conectar os hosts (que são end-devices numa grande rede chamada Internet).
 
