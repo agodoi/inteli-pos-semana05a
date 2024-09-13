@@ -40,7 +40,14 @@ Os meios de transmissão são os canais pelos quais os dados se movem de um disp
 * Desvantagens: menor alcance e susceptibilidade a interferências em comparação com outros meios.
 
 
-COLOCAR FOTOS DOS TIPOS DE CABOS
+#### (2.1.1) Crimpagem de cabo UTP e Teste
+
+Boas práticas
+
+#### (2.1.2) Boas Práticas de Emendas de Cabos de Dados
+
+Boas práticas com coaxial e cabos flexíveis
+
 
 ### (2.2) Óptico
 
@@ -61,9 +68,9 @@ COLOCAR FOTOS DOS TIPOS DE CABOS
 * Vantagens: flexibilidade e mobilidade, já que não depende de cabos.
 * Desvantagens: susceptibilidade a interferências, obstáculos físicos e limitações de alcance e largura de banda.
 
-
 #### (2.3.1) Antenas
 
+tipos e utilidades
 
 
 #### (2.3.2) Comunicação via Satélite
