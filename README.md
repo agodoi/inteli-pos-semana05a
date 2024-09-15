@@ -547,6 +547,11 @@ c) Calcule o perda em dB de um amplificador que excitado com 1W de sinal na entr
 
 d) Observando a imagem ao lado, tem-se em a potência do sinal principal (parte de cima da imagem) e o sinal da ERB vizinha (potência apresentada na metade de baixo da imagem). Calcule em W o valor de cada sinal. Os valores são dados em dBm
 
+<picture>
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/inteli-pos-semana05a/blob/main/imgs/networkCellInfo-01.png">
+   <img alt="Topologias de Redes" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/inteli-pos-semana05a/blob/main/imgs/networkCellInfo-01.png)">
+</picture>
+
 
 
 ### (6) BOAS PRÁTICAS [30min] Mapa de Calor WiFi (medição do dBm)
