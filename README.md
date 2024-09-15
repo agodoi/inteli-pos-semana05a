@@ -545,7 +545,7 @@ b) Calcule o ganho em dB de um amplificador que excitado com 2W de sinal na entr
 
 c) Calcule o perda em dB de um amplificador que excitado com 1W de sinal na entrada fornece 0,5W na saída:
 
-d) Observando a imagem ao lado, tem-se em a potência do sinal principal (parte de cima da imagem) e o sinal da ERB vizinha (potência apresentada na metade de baixo da imagem). Calcule em W o valor de cada sinal. Os valores são dados em dBm
+d) Observando a imagem abaixo, tem-se em a potência do sinal de uma ERB (Estação Rádio Base) da rede de celular. O valor da parte superior é o principal enquanto a potência do sinal da ERB vizinha é apresentada na metade de baixo da imagem. Calcule em W o valor de cada sinal. Os valores são dados em dBm.
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/inteli-pos-semana05a/blob/main/imgs/networkCellInfo-01.png">
