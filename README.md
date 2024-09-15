@@ -529,11 +529,51 @@ Como o dBm é uma escala logarítmica, números mais negativos indicam sinais ma
 
 ### (5.4) BOAS PRÁTICAS [15min] Exercícios teóricos
 
-pegar os exercícios do ppt
+a) Calcule o ganho em dB de um amplificador que excitado com 1W de sinal na entrada fornece 10W na saída:
+
+Solução:
+G = 10 . log(10/1)
+G = 10 . log(10)
+G = 10 . 1
+G = 10dB
+
+Ao calcular o ganho, não colocamos o W na frente do dBW.
+o dBW vai aparecer quando vc disser que a PTX ou PRX é de tanto X [dBW]
+
+
+b) Calcule o ganho em dB de um amplificador que excitado com 2W de sinal na entrada fornece 30W na saída:
+
+c) Calcule o perda em dB de um amplificador que excitado com 1W de sinal na entrada fornece 0,5W na saída:
+
+d) Observando a imagem ao lado, tem-se em a potência do sinal principal (parte de cima da imagem) e o sinal da ERB vizinha (potência apresentada na metade de baixo da imagem). Calcule em W o valor de cada sinal. Os valores são dados em dBm
+
+
 
 ### (6) BOAS PRÁTICAS [30min] Mapa de Calor WiFi (medição do dBm)
 
-testar diferenças entre posições de antenas, gaiola de faraday, uso de metais próximos 
+Nessa aula prática, vamos testar as diferenças de níveis de dBm entre posições de antenas e o uso da gaiola de faraday.
+
+### 6.1 - Material Necessário
+
+a) Celular os alunos com app X instalado (para medição do sinal WiFi em dBm);
+b) 01 roteador caseiro de Internet;
+c) Caixa com papel alumínio;
+
+### 6.2 - Procedimentos
+
+a) Conecte seu celular ao SSID do Roteador. O professor deve lhe passar a senha;
+b) Abra o aplicativo e comece a medir o sinal dBm;
+c) Observe o seu comportamento da seguinte forma tomando nota do dBm medido pelo seu celular:
+
+* Matenha o seu celular na **vertical** em relação ao chão, e a 50cm do roteador. Quantos dBm?
+* Matenha o seu celular na **horizontal** em relação ao chão, e a 50cm do roteador. Quantos dBm?
+* Vá para cada canto extremo da sala, deixe seu celular na horizontal e depois horizontal. Quantos dBm em cada situação?
+
+d) Com base nos valores medidos, quais as conclusões?
+
+e) Cubra o roteador com a caixa de alumínio. Repita os itens do item (c).
+
+f) Com base nos valores medidos, quais as conclusões?
 
 ### (7) BOAS PRÁTICAS [30min] Alinhamento de antena de satélites
 
