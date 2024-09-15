@@ -89,6 +89,8 @@ e. **Escolha do Padrão Correto**
 
 (b) Cabo Cruzado: sempre use cabo cruzado (568A - 568B) quando estive conentando o mesmo tipo de equipamento.
 
+(c) Sempre usamos as portas **Fast Ethernet** para conexão do RJ45 + cabo UTP.
+
 
 f. **Inserção Correta dos Fios no Conector**
    - Certifique-se de que os fios estão perfeitamente alinhados e nivelados antes de inserir no conector RJ-45.
