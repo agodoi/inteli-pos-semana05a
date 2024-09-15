@@ -537,4 +537,34 @@ testar diferenças entre posições de antenas, gaiola de faraday, uso de metais
 
 ### (7) BOAS PRÁTICAS [30min] Alinhamento de antena de satélites
 
-pegar os passos do ppt
+### 7.1 - Material Necessário
+
+a) Instale o aplicativo no seu celular: Bússola;
+b) SatFinder disponível para Android e Apple. Fornecedores recomendados: Artemkaxboy ou Maciej Grzegorczyk;
+c) Antena parabólica banda KU com suporte e base;
+d) Dispositivo profissional de apontamento de satélites;
+e) Receptor de sinal KU para TV.
+
+### 7.2 Procedimentos
+
+a) Após instalar o aplicativo de satélite SATFINDER (Maciej Grzegorczyk), dê um clique longo sobre o nome do satélite que carregou no início econfigure para o satélite 70ºW STAR ONE C2/C4.
+b) Anote os dados:
+
+* Azimute
+* Elevação
+* Curva LNB
+* Bússola
+  
+c) Clique no botão que parece um mapa no canto superior direito (ao lado da lupa)
+d) A linha vermelha é a posição do 70ºW STAR ONE C2/C4 e o campo verde é a sua posição. Vire o seu celular até o campo verde alinhar com a linha vermelha
+
+Posicione a antena parabólica conforme o seu celular indica;
+Ligue o apontador profissional de satélites e cuidadosamente vai girando o no azimute e elevação até ouvir um apito forte;
+Aperte os parafusos horizontais e verticais;
+Ligue o receptor de TV
+
+### 7.3 Relatório
+
+Baixar esse [relatório[(https://docs.google.com/document/d/1Mzgl8fcyugrLfKelmkGGMbXlSqrKveh3RHcbc5nKrkY/edit?usp=sharing), fazer uma cópia em seu dispositvo e preenchê-lo.
+
+
