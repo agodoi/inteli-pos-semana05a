@@ -89,7 +89,7 @@ e. **Escolha do Padrão Correto**
 
 (b) Cabo Cruzado: sempre use cabo cruzado (568A - 568B) quando estive conentando o mesmo tipo de equipamento.
 
-(c) Sempre usamos as portas **Fast Ethernet** para conexão do RJ45 + cabo UTP.
+(c) Sempre usamos as portas **Fast Ethernet** para conexão do RJ45 + cabo UTP de PC e **Giga Ethernet** para Switches e Roteadores.
 
 
 f. **Inserção Correta dos Fios no Conector**
