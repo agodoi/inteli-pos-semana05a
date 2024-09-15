@@ -83,6 +83,13 @@ e. **Escolha do Padrão Correto**
      - pino (7) Marrom/Branco
      - pino (8) Marrom
 
+#### Atenção: 
+
+(a) Cabo Direto: sempre use cabo direto (568A - 568A ou 568B - 568B) quando estiver conectando dispositivos diferentes entre si.
+
+(b) Cabo Cruzado: sempre use cabo cruzado (568A - 568B) quando estive conentando o mesmo tipo de equipamento.
+
+
 f. **Inserção Correta dos Fios no Conector**
    - Certifique-se de que os fios estão perfeitamente alinhados e nivelados antes de inserir no conector RJ-45.
    - Pressione firmemente os fios dentro do conector até que cada um toque seu respectivo pino de metal.
