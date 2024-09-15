@@ -565,6 +565,6 @@ Ligue o receptor de TV
 
 ### 7.3 Relatório
 
-Baixar esse [relatório[(https://docs.google.com/document/d/1Mzgl8fcyugrLfKelmkGGMbXlSqrKveh3RHcbc5nKrkY/edit?usp=sharing), fazer uma cópia em seu dispositvo e preenchê-lo.
+Baixar esse [relatório](https://docs.google.com/document/d/1Mzgl8fcyugrLfKelmkGGMbXlSqrKveh3RHcbc5nKrkY/edit?usp=sharing), fazer uma cópia em seu dispositvo e preenchê-lo.
 
 
