@@ -1,5 +1,7 @@
 # Introdução às Redes de Computadores
 
+Nessa instrução, você verá algumas boas práticas de montagem de cabo que garantem estabilidade na comunicação de sistemas, evitando brechas de ataques como engenharia social do falso técnico.
+
 ## (1) Topologias de Rede
 
 Topologia de Rede é a maneira como os elementos de uma rede estão organizados e interligados. Ela pode ser classificada em duas categorias: **topologia física** e **topologia lógica**. 
@@ -42,7 +44,7 @@ A **topologia lógica** descreve como os dados se movem dentro da rede, ou seja,
 
 ### (2.2) BOAS PRÁTICAS [30min] Crimpagem do cabo UTP e Teste
 
-Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns detalhes para garantir uma conexão eficiente e estável. Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e passar no teste de condutividade. Usar o padrão 568A nas duas pontas. Você também pode optar pelo 568B nas duas pontas. Aqui estão as boas práticas para esse processo:
+Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns detalhes para garantir uma conexão eficiente e estável, livre de problemas, engenharia social e consequentemente, ataques. Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e passar no teste de condutividade. Usar o padrão 568A nas duas pontas. Você também pode optar pelo 568B nas duas pontas. Aqui estão as boas práticas para esse processo:
 
 **a)** Escolha do Cabo e Conectores Corretos
    - Verifique se o cabo é compatível com o padrão Cat 5.
@@ -107,48 +109,57 @@ Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns det
 
 ### (2.3) BOAS PRÁTICA [20min] Emendas de Cabos de Dados
 
-Fazer emendas de cabos coaxiais exige cuidado para garantir que o sinal seja transmitido corretamente, sem perda de qualidade ou interferência. Aqui estão algumas boas práticas ao realizar esse tipo de emenda:
+Fazer emendas de cabos coaxiais exige cuidado para garantir que o sinal seja transmitido corretamente, sem ataques, sem perda de qualidade e sem interferência. As boas práticas ao realizar esse tipo de emenda são:
 
-a. **Utilize Conectores e Ferramentas de Qualidade**
+**a)** Utilize Conectores e Ferramentas de Qualidade
+
    - Use conectores coaxiais de boa qualidade, compatíveis com o tipo de cabo (RG6, RG59, etc.).
    - Ferramentas adequadas, como alicates decapadores e crimpatrizes, são essenciais para garantir uma emenda firme e sem danos ao cabo.
 
-b. **Corte Limpo e Reto do Cabo**
+**b)** Corte Limpo e Reto do Cabo
+
    - Ao cortar o cabo coaxial, utilize uma ferramenta apropriada para garantir que o corte seja reto e uniforme. Alicates cegos deixam rebarbas que podem fechar curto.
    - Um corte torto pode causar problemas de conexão ou dificuldade ao fixar os conectores.
 
-c. **Desencape o Cabo com Cuidado**
+**c)** Desencape o Cabo com Cuidado
+ 
    - Utilize uma ferramenta decapadora para remover a camada externa do cabo coaxial. É importante remover a quantidade correta da capa + malha sem danificar o condutor central.
    - Deixe expostos o condutor central (fio de cobre ou alumínio).
    - Certifique-se que a malha metálica não está encostando no fio central.
    - Alguns conectores de coaxial exigem que a malha seja preservada dobrando-a cuidadosamente para trás para evitar que entre em contato com o condutor central.
 
-d. **Não Deixe Exposta a Blindagem**
+**d)** Não Deixe Exposta a Blindagem
+   
    - A malha de proteção e o condutor central nunca devem se tocar, pois isso pode causar curtos-circuitos e perda de sinal.
    - Após desencapar, certifique-se de que a malha está dobrada e organizada, e o condutor central está isolado.
 
-e. **Use Conectores F (ou outros conectores apropriados)**
+**e)** Use Conectores F (ou outros conectores apropriados)
+   
    - Utilize conectores F, BNC ou outros apropriados para o tipo de cabo coaxial que está sendo utilizado. Os conectores devem ser crimpos ou rosqueados corretamente para garantir boa conexão.
    - Conectores F exigem que o condutor central passe pelo orifício no centro do conector, e a malha fique em contato com o corpo metálico do conector para fazer a blindagem adequada.
 
-f. **Uso de Adaptadores de Emenda**
+**f)** Uso de Adaptadores de Emenda
+   
    - Para emendas diretas entre dois cabos coaxiais, utilize adaptadores de emenda específicos (barril de emenda coaxial). Eles garantem uma emenda estável e minimizam a perda de sinal.
    - Evite emendas improvisadas (como fitas isolantes), que podem prejudicar a qualidade do sinal e a durabilidade da conexão.
 
-g. **Verificação da Impedância**
+**g) Verificação da Impedância
+  
    - Verifique se os conectores e cabos utilizados são compatíveis em termos de impedância. Cabos coaxiais são normalmente de 50 ou 75 ohms, e é importante manter a mesma impedância ao longo de toda a conexão para evitar perda de sinal ou reflexões.
 
-h. **Dobras e passagens**
+**h)** Dobras e passagens
+
    - Jamais faça dobras de 90º no cabo coaxial, pois isso danifica internamente a estrutura do material dielétrico que separa o condutor central da malha metálica, causando reflexões do sinal e perdas do dBm.
 
-i. **Isolamento Adequado**
+**i) Isolamento Adequado
+
    - Certifique-se de que o condutor central e a malha estão bem isolados para evitar interferências e curto-circuitos.
    - Para isso, use um multímetro na escala ôhmica e um terminal de 75 ohms conectado na outra ponta do cabo coaxial.
    - Após conectar o cabo coaxial em um conector, isole a emenda adequadamente com **fita isolante de autofusão** fazendo uma camada de ida e outra camada de volta partindo do lado do cabo e cobrindo até o conector metálico em um comprimento equivalente a um conector sobre a capa e a emenda. Sobreposição de 50%.
    - Após fazer a camada de ida e volta com a fita de autofusão, faça outra 2 camadas de ida e volta usando fita isolante. Sobreposição de 50%.
    - Finalize a emenda com uma fita tipo Hellerman travando as pontas da fita isolante para não se soltar no calor.
    
-j. **Teste Final da Conexão**
+**j)** Teste Final da Conexão
 
     - Após a emenda, teste a qualidade do sinal usando um multimetro e o terminal de carga de 75 ohms. O valor marcado no multímetro deve o mais próximo de 75 ohms.
     - Verifique a integridade da conexão e, se necessário, refaça a crimpagem ou substitua os conectores.
