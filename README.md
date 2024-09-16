@@ -143,7 +143,7 @@ Fazer emendas de cabos coaxiais exige cuidado para garantir que o sinal seja tra
    - Para emendas diretas entre dois cabos coaxiais, utilize adaptadores de emenda específicos (barril de emenda coaxial). Eles garantem uma emenda estável e minimizam a perda de sinal.
    - Evite emendas improvisadas (como fitas isolantes), que podem prejudicar a qualidade do sinal e a durabilidade da conexão.
 
-**g) Verificação da Impedância
+**g)** Verificação da Impedância
   
    - Verifique se os conectores e cabos utilizados são compatíveis em termos de impedância. Cabos coaxiais são normalmente de 50 ou 75 ohms, e é importante manter a mesma impedância ao longo de toda a conexão para evitar perda de sinal ou reflexões.
 
@@ -151,7 +151,7 @@ Fazer emendas de cabos coaxiais exige cuidado para garantir que o sinal seja tra
 
    - Jamais faça dobras de 90º no cabo coaxial, pois isso danifica internamente a estrutura do material dielétrico que separa o condutor central da malha metálica, causando reflexões do sinal e perdas do dBm.
 
-**i) Isolamento Adequado
+**i)** Isolamento Adequado
 
    - Certifique-se de que o condutor central e a malha estão bem isolados para evitar interferências e curto-circuitos.
    - Para isso, use um multímetro na escala ôhmica e um terminal de 75 ohms conectado na outra ponta do cabo coaxial.
@@ -542,7 +542,7 @@ Como o dBm é uma escala logarítmica, números mais negativos indicam sinais ma
 
 ### (5.4) BOAS PRÁTICAS [15min] Exercícios teóricos
 
-a) Calcule o ganho em dB de um amplificador que excitado com 1W de sinal na entrada fornece 10W na saída:
+**a)** Calcule o ganho em dB de um amplificador que excitado com 1W de sinal na entrada fornece 10W na saída:
 
 Solução:
 G = 10 . log(10/1)
@@ -554,11 +554,11 @@ Ao calcular o ganho, não colocamos o W na frente do dBW.
 o dBW vai aparecer quando vc disser que a PTX ou PRX é de tanto X [dBW]
 
 
-b) Calcule o ganho em dB de um amplificador que excitado com 2W de sinal na entrada fornece 30W na saída:
+**b)** Calcule o ganho em dB de um amplificador que excitado com 2W de sinal na entrada fornece 30W na saída:
 
-c) Calcule o perda em dB de um amplificador que excitado com 1W de sinal na entrada fornece 0,5W na saída:
+**c)** Calcule o perda em dB de um amplificador que excitado com 1W de sinal na entrada fornece 0,5W na saída:
 
-d) Observando a imagem abaixo, tem-se em a potência do sinal de uma ERB (Estação Rádio Base) da rede de celular. O valor da parte superior é o principal enquanto a potência do sinal da ERB vizinha é apresentada na metade de baixo da imagem. Calcule em W o valor de cada sinal. Os valores são dados em dBm.
+**d)** Observando a imagem abaixo, tem-se em a potência do sinal de uma ERB (Estação Rádio Base) da rede de celular. O valor da parte superior é o principal enquanto a potência do sinal da ERB vizinha é apresentada na metade de baixo da imagem. Calcule em W o valor de cada sinal. Os valores são dados em dBm.
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/inteli-pos-semana05a/blob/main/imgs/networkCellInfo-01.png">
@@ -573,48 +573,48 @@ Nessa aula prática, vamos testar as diferenças de níveis de dBm entre posiç�
 
 ### 6.1 - Material Necessário
 
-a) Celular os alunos com app X instalado (para medição do sinal WiFi em dBm);
-b) 01 roteador caseiro de Internet;
-c) Caixa com papel alumínio;
+**a)** Celular os alunos com app X instalado (para medição do sinal WiFi em dBm);
+**b)** 01 roteador caseiro de Internet;
+**c)** Caixa com papel alumínio;
 
 ### 6.2 - Procedimentos
 
-a) Conecte seu celular ao SSID do Roteador. O professor deve lhe passar a senha;
-b) Abra o aplicativo e comece a medir o sinal dBm;
-c) Observe o seu comportamento da seguinte forma tomando nota do dBm medido pelo seu celular:
+**a)** Conecte seu celular ao SSID do Roteador. O professor deve lhe passar a senha;
+**b)** Abra o aplicativo e comece a medir o sinal dBm;
+**c)** Observe o seu comportamento da seguinte forma tomando nota do dBm medido pelo seu celular:
 
 * Matenha o seu celular na **vertical** em relação ao chão, e a 50cm do roteador. Quantos dBm?
 * Matenha o seu celular na **horizontal** em relação ao chão, e a 50cm do roteador. Quantos dBm?
 * Vá para cada canto extremo da sala, deixe seu celular na horizontal e depois horizontal. Quantos dBm em cada situação?
 
-d) Com base nos valores medidos, quais as conclusões?
+**d)** Com base nos valores medidos, quais as conclusões?
 
-e) Cubra o roteador com a caixa de alumínio. Repita os itens do item (c).
+**e)** Cubra o roteador com a caixa de alumínio. Repita os itens do item (c).
 
-f) Com base nos valores medidos, quais as conclusões?
+**f)** Com base nos valores medidos, quais as conclusões?
 
 ### (7) BOAS PRÁTICAS [30min] Alinhamento de antena de satélites
 
 ### 7.1 - Material Necessário
 
-a) Instale o aplicativo no seu celular: Bússola;
-b) SatFinder disponível para Android e Apple. Fornecedores recomendados: Artemkaxboy ou Maciej Grzegorczyk;
-c) Antena parabólica banda KU com suporte e base;
-d) Dispositivo profissional de apontamento de satélites;
-e) Receptor de sinal KU para TV.
+**a)** Instale o aplicativo no seu celular: Bússola;
+**b)** SatFinder disponível para Android e Apple. Fornecedores recomendados: Artemkaxboy ou Maciej Grzegorczyk;
+**c)** Antena parabólica banda KU com suporte e base;
+**d)** Dispositivo profissional de apontamento de satélites;
+**e)** Receptor de sinal KU para TV.
 
 ### 7.2 Procedimentos
 
-a) Após instalar o aplicativo de satélite SATFINDER (Maciej Grzegorczyk), dê um clique longo sobre o nome do satélite que carregou no início econfigure para o satélite 70ºW STAR ONE C2/C4.
-b) Anote os dados:
+**a)** Após instalar o aplicativo de satélite SATFINDER (Maciej Grzegorczyk), dê um clique longo sobre o nome do satélite que carregou no início econfigure para o satélite 70ºW STAR ONE C2/C4.
+**b)** Anote os dados:
 
 * Azimute
 * Elevação
 * Curva LNB
 * Bússola
   
-c) Clique no botão que parece um mapa no canto superior direito (ao lado da lupa)
-d) A linha vermelha é a posição do 70ºW STAR ONE C2/C4 e o campo verde é a sua posição. Vire o seu celular até o campo verde alinhar com a linha vermelha
+**c)** Clique no botão que parece um mapa no canto superior direito (ao lado da lupa)
+**d)** A linha vermelha é a posição do 70ºW STAR ONE C2/C4 e o campo verde é a sua posição. Vire o seu celular até o campo verde alinhar com a linha vermelha
 
 Posicione a antena parabólica conforme o seu celular indica;
 Ligue o apontador profissional de satélites e cuidadosamente vai girando o no azimute e elevação até ouvir um apito forte;
