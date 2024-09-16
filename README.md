@@ -44,23 +44,23 @@ A **topologia lógica** descreve como os dados se movem dentro da rede, ou seja,
 
 Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns detalhes para garantir uma conexão eficiente e estável. Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e passar no teste de condutividade. Usar o padrão 568A nas duas pontas. Você também pode optar pelo 568B nas duas pontas. Aqui estão as boas práticas para esse processo:
 
-a. **Escolha do Cabo e Conectores Corretos**
+**a)** Escolha do Cabo e Conectores Corretos
    - Verifique se o cabo é compatível com o padrão Cat 5.
    - Utilize conectores RJ-45 adequados para cabos Cat 5 (ou Cat 5e).
    
-b. **Corte Limpo do Cabo**
+**b)** Corte Limpo do Cabo
    - Utilize uma ferramenta de corte para garantir que o cabo seja cortado de forma reta e precisa, evitando fios desalinhados que podem dificultar a conexão.
 
-c. **Desencape o Cabo Com Cuidado**
+**c)** Desencape o Cabo Com Cuidado
    - Ao remover a capa externa do cabo, deixe expostos cerca de 2,5 cm (1 polegada) dos pares trançados internos.
    - Não desencape, ou corte ou danifique os fios internos no momento de desencapar a capa externa.
 
-d. **Desenrolar e Organizar os Fios**
+**d)** Desenrolar e Organizar os Fios
    - Separe os pares de fios e os alinhe de acordo com o padrão escolhido (T568A ou T568B).
    - Certifique-se de que os fios estão alinhados e retos antes de inserir no conector.
    - Não desenrole demais os fios; mantenha a torção o mais próximo possível do conector, pois isso ajuda a minimizar interferências.
 
-e. **Escolha do Padrão Correto**
+**e)** Escolha do Padrão Correto
    - Decida entre o padrão **T568A** ou **T568B** e certifique-se de seguir o mesmo padrão em ambas as extremidades do cabo, especialmente se estiver fazendo um cabo patch.
    - As combinações de cores para o padrão T568A são:
      - pino (1) Verde/Branco
@@ -83,23 +83,23 @@ e. **Escolha do Padrão Correto**
 
 #### Atenção: 
 
-(a) Cabo Direto: sempre use cabo direto (568A - 568A ou 568B - 568B) quando estiver conectando dispositivos diferentes entre si.
+* Cabo Direto: sempre use cabo direto (568A - 568A ou 568B - 568B) quando estiver conectando dispositivos diferentes entre si.
 
-(b) Cabo Cruzado: sempre use cabo cruzado (568A - 568B) quando estive conentando o mesmo tipo de equipamento.
+* Cabo Cruzado: sempre use cabo cruzado (568A - 568B) quando estive conentando o mesmo tipo de equipamento.
 
-(c) Sempre usamos as portas **Fast Ethernet** para conexão do RJ45 + cabo UTP de PC e **Giga Ethernet** para Switches e Roteadores.
+* Sempre usamos as portas **Fast Ethernet** para conexão do RJ45 + cabo UTP de PC e **Giga Ethernet** para Switches e Roteadores.
 
 
-f. **Inserção Correta dos Fios no Conector**
+**f)** Inserção Correta dos Fios no Conector
    - Certifique-se de que os fios estão perfeitamente alinhados e nivelados antes de inserir no conector RJ-45.
    - Pressione firmemente os fios dentro do conector até que cada um toque seu respectivo pino de metal.
    - O cabo externo (capa) deve estar preso dentro do conector para maior resistência e durabilidade.
 
-g. **Uso da Ferramenta de Crimpagem**
+**g)** Uso da Ferramenta de Crimpagem
    - Posicione o conector no alicate de crimpagem e aperte firmemente para fixar os contatos metálicos nos fios.
    - Certifique-se de que o conector está totalmente inserido no alicate antes de crimpar para evitar crimpar mal e danificar o conector.
 
-h. **Teste o Cabo**
+**h)** Teste o Cabo
    - Após crimpar, utilize um **testador de cabos** para garantir que todos os fios estão corretamente conectados e o cabo está funcionando corretamente.
    - Verifique se todos os pares estão funcionando e se não há fios cruzados ou mal conectados.
 
@@ -149,6 +149,7 @@ i. **Isolamento Adequado**
    - Finalize a emenda com uma fita tipo Hellerman travando as pontas da fita isolante para não se soltar no calor.
    
 j. **Teste Final da Conexão**
+
     - Após a emenda, teste a qualidade do sinal usando um multimetro e o terminal de carga de 75 ohms. O valor marcado no multímetro deve o mais próximo de 75 ohms.
     - Verifique a integridade da conexão e, se necessário, refaça a crimpagem ou substitua os conectores.
 
