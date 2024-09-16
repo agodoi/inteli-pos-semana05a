@@ -24,8 +24,6 @@ Para o padrão Ethernet, adota-se **Estrela** que também pode ser estendido par
 
 A **topologia lógica** descreve como os dados se movem dentro da rede, ou seja, o caminho que as informações seguem independentemente da disposição física dos cabos e dispositivos. O fluxo de dados entre os dispositivos, que nem sempre segue a topologia física. Por exemplo, em uma rede fisicamente em estrela, os dados podem se comportar como se estivessem em uma topologia em barramento, dependendo de como os pacotes de dados são transmitidos entre os dispositivos.
 
-**COLOCAR UMA FIGURA DA TOPOLOGIA LÓGICA**
-
 ---
 
 ## (2) Tipos de Meios de Transmissão
@@ -109,8 +107,6 @@ h. **Teste o Cabo**
 
 ### (2.3) BOAS PRÁTICA [20min] Emendas de Cabos de Dados
 
-COLOCAR IMAGEM DE UMA EMENDA DE CABO FLEXÍVEL
-
 Fazer emendas de cabos coaxiais exige cuidado para garantir que o sinal seja transmitido corretamente, sem perda de qualidade ou interferência. Aqui estão algumas boas práticas ao realizar esse tipo de emenda:
 
 a. **Utilize Conectores e Ferramentas de Qualidade**
@@ -135,13 +131,9 @@ e. **Use Conectores F (ou outros conectores apropriados)**
    - Utilize conectores F, BNC ou outros apropriados para o tipo de cabo coaxial que está sendo utilizado. Os conectores devem ser crimpos ou rosqueados corretamente para garantir boa conexão.
    - Conectores F exigem que o condutor central passe pelo orifício no centro do conector, e a malha fique em contato com o corpo metálico do conector para fazer a blindagem adequada.
 
-COLOCAR FOTOS
-
 f. **Uso de Adaptadores de Emenda**
    - Para emendas diretas entre dois cabos coaxiais, utilize adaptadores de emenda específicos (barril de emenda coaxial). Eles garantem uma emenda estável e minimizam a perda de sinal.
    - Evite emendas improvisadas (como fitas isolantes), que podem prejudicar a qualidade do sinal e a durabilidade da conexão.
-
-COLOCA FOTOS
 
 g. **Verificação da Impedância**
    - Verifique se os conectores e cabos utilizados são compatíveis em termos de impedância. Cabos coaxiais são normalmente de 50 ou 75 ohms, e é importante manter a mesma impedância ao longo de toda a conexão para evitar perda de sinal ou reflexões.
