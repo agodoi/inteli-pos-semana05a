@@ -315,7 +315,7 @@ Antenas de patch, ou microstrip, são compostas por uma pequena superfície met�
 
 ---
 
-### 3.7 Antena de Loop
+### 3.7 Antena de Loop 
 
 #### Descrição:
 Antenas de loop consistem em um fio condutor em formato de círculo ou elipse. Elas podem ser pequenas (loop magnético) ou grandes, dependendo da aplicação.
