@@ -32,7 +32,7 @@ Para o padrão Ethernet, adota-se **Estrela** que também pode ser estendido par
    <img alt="Estrela Estendida" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/estrela_extendida.png)">
 </picture>
 
-#### Montaremos essa topologia no Packet Tracer.
+#### [SÁBADO] Montaremos essa topologia no Packet Tracer.
 
 ### (1.2) Topologia Lógica
 
