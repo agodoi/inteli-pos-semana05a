@@ -161,8 +161,8 @@ Fazer emendas de cabos coaxiais exige cuidado para garantir que o sinal seja tra
    
 **j)** Teste Final da Conexão
 
-    - Após a emenda, teste a qualidade do sinal usando um multimetro e o terminal de carga de 75 ohms. O valor marcado no multímetro deve o mais próximo de 75 ohms.
-    - Verifique a integridade da conexão e, se necessário, refaça a crimpagem ou substitua os conectores.
+ - Após a emenda, teste a qualidade do sinal usando um multimetro e o terminal de carga de 75 ohms. O valor marcado no multímetro deve o mais próximo de 75 ohms.
+ - Verifique a integridade da conexão e, se necessário, refaça a crimpagem ou substitua os conectores.
 
 ---
 
