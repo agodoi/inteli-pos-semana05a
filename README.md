@@ -42,7 +42,7 @@ A **topologia lógica** descreve como os dados se movem dentro da rede, ou seja,
 * Desvantagens: menor alcance e susceptibilidade a interferências em comparação com outros meios.
 
 
-### (2.2) BOAS PRÁTICAS [30min] Crimpagem do cabo UTP e Teste
+### (2.2) BOAS PRÁTICAS [SÁBADO-30min] Crimpagem do cabo UTP e Teste
 
 Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns detalhes para garantir uma conexão eficiente e estável, livre de problemas, engenharia social e consequentemente, ataques. Sua missão é crimpar um cabo UTP CAT 5 com um conector RJ45 em cada ponta e passar no teste de condutividade. Usar o padrão 568A nas duas pontas. Você também pode optar pelo 568B nas duas pontas. Aqui estão as boas práticas para esse processo:
 
@@ -107,7 +107,7 @@ Crimpar um cabo UTP (Unshielded Twisted Pair) Cat 5 exige atenção a alguns det
 
 ---
 
-### (2.3) BOAS PRÁTICA [20min] Emendas de Cabos de Dados
+### (2.3) BOAS PRÁTICA [SÁBADO-20min] Emendas de Cabos de Dados
 
 Fazer emendas de cabos coaxiais exige cuidado para garantir que o sinal seja transmitido corretamente, sem ataques, sem perda de qualidade e sem interferência. As boas práticas ao realizar esse tipo de emenda são:
 
@@ -540,7 +540,7 @@ Como o dBm é uma escala logarítmica, números mais negativos indicam sinais ma
 - **Análise de Interferência**: o dBm também pode ser utilizado para detectar interferências de outros dispositivos que operam na mesma frequência, como micro-ondas ou telefones sem fio, permitindo ajustes no canal de operação do Wi-Fi.
 
 
-### (5.4) BOAS PRÁTICAS [15min] Exercícios teóricos
+### (5.4) BOAS PRÁTICAS [SÁBADO-15min] Exercícios teóricos
 
 **a)** Calcule o ganho em dB de um amplificador que excitado com 1W de sinal na entrada fornece 10W na saída:
 
@@ -567,7 +567,7 @@ o dBW vai aparecer quando vc disser que a PTX ou PRX é de tanto X [dBW]
 
 
 
-### (6) BOAS PRÁTICAS [30min] Mapa de Calor WiFi (medição do dBm)
+### (6) BOAS PRÁTICAS [SÁBADO-30min] Mapa de Calor WiFi (medição do dBm)
 
 Nessa aula prática, vamos testar as diferenças de níveis de dBm entre posições de antenas e o uso da gaiola de faraday.
 
@@ -593,7 +593,7 @@ Nessa aula prática, vamos testar as diferenças de níveis de dBm entre posiç�
 
 **f)** Com base nos valores medidos, quais as conclusões?
 
-### (7) BOAS PRÁTICAS [30min] Alinhamento de antena de satélites
+### (7) BOAS PRÁTICAS [SÁBADO-30min] Alinhamento de antena de satélites
 
 ### 7.1 - Material Necessário
 
