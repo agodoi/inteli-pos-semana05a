@@ -1,6 +1,6 @@
 # Introdução às Redes de Computadores
 
-Nessa instrução, você verá algumas boas práticas de montagem de cabo que garantem estabilidade na comunicação de sistemas, evitando brechas de ataques como engenharia social do falso técnico.
+Nessa instrução, você verá teorias importantes e boas práticas de montagem de cabo que garantem estabilidade na comunicação de sistemas, evitando brechas de ataques como engenharia social do falso técnico.
 
 ## (1) Topologias de Rede
 
