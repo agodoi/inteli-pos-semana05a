@@ -1,6 +1,16 @@
 # Introdução às Redes de Computadores
 
-Nessa instrução, você verá teorias importantes e boas práticas de montagem de cabo que garantem estabilidade na comunicação de sistemas, evitando brechas de ataques como engenharia social do falso técnico.
+Nessa instrução, você verá teorias importantes para evitar o hardware hacking e boas práticas de montagem de cabo que garantem estabilidade na comunicação de sistemas, evitando brechas de ataques como engenharia social do falso técnico.
+
+Hardware hacking é o processo de modificar ou explorar dispositivos físicos para alterar sua funcionalidade, ampliar seu uso ou explorar vulnerabilidades. 
+
+Isso pode incluir desmontar dispositivos, reprogramar componentes, explorar falhas ou interfaces mal protegidas, ou criar novos usos para um hardware existente. 
+
+Os hackers de hardware podem realizar essas modificações para fins legítimos, como personalizar ou consertar dispositivos, mas também podem buscar explorar brechas para comprometer a segurança de um sistema, como em ataques a dispositivos de IoT ou sistemas embarcados. 
+
+Em cibersegurança, o hardware hacking pode ser uma técnica usada para demonstrar vulnerabilidades em dispositivos físicos, ajudando a melhorar a proteção dos sistemas contra ameaças.
+
+É sobre essa melhoria na proteção que vamos explorar hoje.
 
 ## (1) Topologias de Rede
 
