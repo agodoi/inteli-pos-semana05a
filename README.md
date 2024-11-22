@@ -558,7 +558,7 @@ Como o dBm é uma escala logarítmica, números mais negativos indicam sinais ma
 A diferença entre **dBm** e **dB** está relacionada ao contexto de uso e à referência de medição:
 
 
-### 1. dB (decibel)
+### 5.4.1 dB (decibel)
 
 - **Definição:** 
   - Uma unidade de medida relativa, que expressa a razão entre duas potências, intensidades ou amplitudes.
@@ -583,12 +583,13 @@ A diferença entre **dBm** e **dB** está relacionada ao contexto de uso e à re
 
 ---
 
-### **2. dBm (decibel-miliwatts)**
+### 5.4.2 dBm (decibel-miliwatts)
+
 - **Definição:**  
   - Uma unidade de medida **absoluta** que expressa a potência de um sinal **em relação a 1 miliwatt (mW)**.
 - **Fórmula:**
 
- ![Equação dBm](https://latex.codecogs.com/png.latex?\text{dBm}=10\cdot\log_{10}\left(\frac{P}{1\,\text{mW}}\right))
+ ![Equação dBm](https://latex.codecogs.com/png.latex?\text{dBm}=10\cdot\log_{10}\left(\frac{P}{1\\text{mW}}\right))
 
   Onde \(P\) é a potência medida em miliwatts.
 
