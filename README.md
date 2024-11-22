@@ -522,8 +522,8 @@ A fórmula para converter a potência em watts para dBm é:
 
 
 Por exemplo:
-- Se a potência do sinal é de 1 mW, o valor em dBm será 0 dBm.
-- Se a potência é 10 mW, o valor será 10 dBm.
+- Se a potência P do sinal é de 1 mW, o valor em dBm será 0 dBm.
+- Se a potência P é 10 mW, o valor será 10 dBm.
 
 Curiosidade: a presença do 10 na fórmula apelidou de 10 Bells ou Decibel.
 
