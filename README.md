@@ -617,9 +617,8 @@ A diferença entre **dBm** e **dB** está relacionada ao contexto de uso e à re
 
 2. **dBm (absoluto):** Se um sinal tem 50 mW de potência, sua medida em dBm é:
 
-  ![Equação de Ganho](https://latex.codecogs.com/png.latex?\text{Ganho%20(dB)}=10\cdot\log_{10}\left(\frac{100}{10}\right)=10\\text{dB})
-
-  ![Equação de Potência](https://latex.codecogs.com/png.latex?\text{Potência%20(dBm)}=10\cdot\log_{10}\left(\frac{50}{1}\right)=16.99\\text{dBm})
+   ![Equação de Potencia](https://latex.codecogs.com/png.latex?\text{Potencia%20(dBm)}=10\cdot\log_{10}\left(\frac{50}{1}\right)=16,99\\text{dBm})
+   ![Equação de Potência](https://latex.codecogs.com/png.latex?\text{Potência%20(dBm)}=10\cdot\log_{10}\left(\frac{50}{1}\right)=16.99\\text{dBm})
 
 
 
