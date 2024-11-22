@@ -548,9 +548,77 @@ Como o dBm é uma escala logarítmica, números mais negativos indicam sinais ma
   
 - **Diagnóstico de Problemas de Conexão**: se um dispositivo estiver experimentando problemas de conexão, medir o dBm pode ajudar a diagnosticar se o problema é causado por um sinal fraco.
 
-- **Configuração de Redes Mesh**: Em redes Wi-Fi que utilizam tecnologia Mesh, a medição de dBm ajuda a posicionar os nós de forma eficiente para maximizar a cobertura e minimizar a interferência.
+- **Configuração de Redes Mesh**: em redes Wi-Fi que utilizam tecnologia Mesh, a medição de dBm ajuda a posicionar os nós de forma eficiente para maximizar a cobertura e minimizar a interferência.
 
 - **Análise de Interferência**: o dBm também pode ser utilizado para detectar interferências de outros dispositivos que operam na mesma frequência, como micro-ondas ou telefones sem fio, permitindo ajustes no canal de operação do Wi-Fi.
+
+
+### (5.4) Qual a diferença entre dBm e dB?
+
+A diferença entre **dBm** e **dB** está relacionada ao contexto de uso e à referência de medição:
+
+
+### 1. dB (decibel)
+
+- **Definição:** 
+  - Uma unidade de medida relativa, que expressa a razão entre duas potências, intensidades ou amplitudes.
+  - É adimensional e não tem uma referência fixa.
+- **Fórmula:**
+  - Para potências:  
+
+   ![Equação de Potências](https://latex.codecogs.com/png.latex?\text{dB}=10\cdot\log_{10}\left(\frac{P_1}{P_2}\right))
+
+    Onde \(P_1\) e \(P_2\) são as potências comparadas.
+
+   - Para amplitudes (como tensões ou correntes):  
+
+   ![Equação de Amplitudes](https://latex.codecogs.com/png.latex?\text{dB}=20\cdot\log_{10}\left(\frac{A_1}{A_2}\right))
+
+
+    Onde \(A_1\) e \(A_2\) são as amplitudes comparadas.
+
+- **Uso:**  
+  - Medir ganhos, perdas ou relações relativas, como o ganho de um amplificador ou a atenuação de um sinal.
+  - Não especifica valores absolutos; é sempre uma relação.
+
+---
+
+### **2. dBm (decibel-miliwatts)**
+- **Definição:**  
+  - Uma unidade de medida **absoluta** que expressa a potência de um sinal **em relação a 1 miliwatt (mW)**.
+- **Fórmula:**
+  \[
+  \text{dBm} = 10 \cdot \log_{10} \left( \frac{P}{1\, \text{mW}} \right)
+  \]
+  Onde \(P\) é a potência medida em miliwatts.
+
+- **Uso:**  
+  - Medir a potência absoluta de sinais em sistemas de telecomunicações, rádio e redes.
+  - Compara diretamente a potência a 1 mW, tornando-o útil para escalas absolutas.
+
+---
+
+### **Diferenças-chave**
+| Característica      | dB                                | dBm                                  |
+|---------------------|-----------------------------------|---------------------------------------|
+| **Tipo de medida**  | Relativa (razão entre duas grandezas) | Absoluta (potência em relação a 1 mW) |
+| **Referência fixa** | Não tem                          | 1 mW                                 |
+| **Unidade associada** | Nenhuma (é adimensional)        | mW (potência absoluta)               |
+| **Uso principal**   | Ganhos/perdas em amplificadores ou sinais | Potência absoluta em sistemas de RF e telecom |
+
+---
+
+### Exemplo Prático:
+1. **dB (relativo):** Um amplificador aumenta a potência de um sinal de 10 mW para 100 mW. O ganho é:
+   \[
+   \text{Ganho (dB)} = 10 \cdot \log_{10} \left( \frac{100}{10} \right) = 10 \, \text{dB}.
+   \]
+
+2. **dBm (absoluto):** Se um sinal tem 50 mW de potência, sua medida em dBm é:
+   \[
+   \text{Potência (dBm)} = 10 \cdot \log_{10} \left( \frac{50}{1} \right) = 16.99 \, \text{dBm}.
+   \]
+
 
 
 ### (5.4) BOAS PRÁTICAS [SÁBADO-15min] Exercícios teóricos
