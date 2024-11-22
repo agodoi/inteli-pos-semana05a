@@ -613,11 +613,11 @@ A diferença entre **dBm** e **dB** está relacionada ao contexto de uso e à re
 ### Exemplo Prático:
 1. **dB (relativo):** Um amplificador aumenta a potência de um sinal de 10 mW para 100 mW. O ganho é:
 
-   ![Equação de Ganho](https://latex.codecogs.com/png.latex?\text{Ganho%20(dB)}=10\cdot\log_{10}\left(\frac{100}{10}\right)=10\,\text{dB})
+   ![Equação de Ganho](https://latex.codecogs.com/png.latex?\text{Ganho%20(dB)}=10\cdot\log_{10}\left(\frac{100}{10}\right)=10\\text{dB})
 
 2. **dBm (absoluto):** Se um sinal tem 50 mW de potência, sua medida em dBm é:
 
-   ![Equação de Potência](https://latex.codecogs.com/png.latex?\text{Potência%20(dBm)}=10\cdot\log_{10}\left(\frac{50}{1}\right)=16.99\,\text{dBm})
+   ![Equação de Potência](https://latex.codecogs.com/png.latex?\text{Potência%20(dBm)}=10\cdot\log_{10}\left(\frac{50}{1}\right)=16.99\\text{dBm})
 
 
 ### (5.4) BOAS PRÁTICAS [SÁBADO-15min] Exercícios teóricos
