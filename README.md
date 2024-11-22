@@ -517,7 +517,7 @@ O **dBm** é uma unidade de medida que expressa a potência de um sinal em **dec
 A fórmula para converter a potência em watts para dBm é:
 
 
-![Formula](https://latex.codecogs.com/png.latex?\text{dBm}=10\cdot\log_{10}\left(\frac{P}{1\,\text{mW}}\right))
+![Formula](https://latex.codecogs.com/png.latex?\text{dBm}=10\cdot\log_{10}\left(\frac{P}{1\\text{mW}}\right))
 
 
 
