@@ -587,9 +587,9 @@ A diferença entre **dBm** e **dB** está relacionada ao contexto de uso e à re
 - **Definição:**  
   - Uma unidade de medida **absoluta** que expressa a potência de um sinal **em relação a 1 miliwatt (mW)**.
 - **Fórmula:**
-  \[
-  \text{dBm} = 10 \cdot \log_{10} \left( \frac{P}{1\, \text{mW}} \right)
-  \]
+
+ ![Equação dBm](https://latex.codecogs.com/png.latex?\text{dBm}=10\cdot\log_{10}\left(\frac{P}{1\,\text{mW}}\right))
+
   Onde \(P\) é a potência medida em miliwatts.
 
 - **Uso:**  
