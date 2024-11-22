@@ -507,7 +507,7 @@ Uma das maiores batalhas da indústria de TV Fechada é contra a pirataria dos d
 
 Em 2024, a ANATEL lançou um hacktown de R$7.000,00 (sete mil reais) para o vencedor que encontrar uma solução contra a pirataria. O prejuízo anual das empresas de telecom é estimado em R$15 bilhões rsrsrs.
 
-### (5) Conceitos de dBm
+### (5) Conceitos de dBm e dB
 
 O **dBm** é uma unidade de medida que expressa a potência de um sinal em **decibéis** (dB) em relação a **1 milivatt (mW)**. É uma medida logarítmica utilizada para avaliar a intensidade de um sinal de transmissão ou recepção, como o sinal de Wi-Fi em uma rede LAN. Foi criado pelo Graham Bell como forma de medir sua invensão, o sinal do telefone nas casas dos clientes.
 
@@ -518,7 +518,6 @@ A fórmula para converter a potência em watts para dBm é:
 
 
 ![Formula](https://latex.codecogs.com/png.latex?\text{dBm}=10\cdot\log_{10}\left(\frac{P}{1\\text{mW}}\right))
-
 
 
 Por exemplo:
@@ -563,6 +562,7 @@ A diferença entre **dBm** e **dB** está relacionada ao contexto de uso e à re
 - **Definição:** 
   - Uma unidade de medida relativa, que expressa a razão entre duas potências, intensidades ou amplitudes.
   - É adimensional e não tem uma referência fixa.
+    
 - **Fórmula:**
   - Para potências:  
 
@@ -587,6 +587,7 @@ A diferença entre **dBm** e **dB** está relacionada ao contexto de uso e à re
 
 - **Definição:**  
   - Uma unidade de medida **absoluta** que expressa a potência de um sinal **em relação a 1 miliwatt (mW)**.
+
 - **Fórmula:**
 
  ![Equação dBm](https://latex.codecogs.com/png.latex?\text{dBm}=10\cdot\log_{10}\left(\frac{P}{1\\text{mW}}\right))
@@ -611,15 +612,12 @@ A diferença entre **dBm** e **dB** está relacionada ao contexto de uso e à re
 
 ### Exemplo Prático:
 1. **dB (relativo):** Um amplificador aumenta a potência de um sinal de 10 mW para 100 mW. O ganho é:
-   \[
-   \text{Ganho (dB)} = 10 \cdot \log_{10} \left( \frac{100}{10} \right) = 10 \, \text{dB}.
-   \]
+
+   ![Equação de Ganho](https://latex.codecogs.com/png.latex?\text{Ganho%20(dB)}=10\cdot\log_{10}\left(\frac{100}{10}\right)=10\,\text{dB})
 
 2. **dBm (absoluto):** Se um sinal tem 50 mW de potência, sua medida em dBm é:
-   \[
-   \text{Potência (dBm)} = 10 \cdot \log_{10} \left( \frac{50}{1} \right) = 16.99 \, \text{dBm}.
-   \]
 
+   ![Equação de Potência](https://latex.codecogs.com/png.latex?\text{Potência%20(dBm)}=10\cdot\log_{10}\left(\frac{50}{1}\right)=16.99\,\text{dBm})
 
 
 ### (5.4) BOAS PRÁTICAS [SÁBADO-15min] Exercícios teóricos
